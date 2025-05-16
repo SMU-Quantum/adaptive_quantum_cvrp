@@ -326,3 +326,31 @@ if __name__ == "__main__":
     print(f"Saved run arguments to {args_path}")
 
     main(args)
+
+
+"""""
+python experiments/run_rl_penalty_learner_q_alm_experiment.py \
+    --train_instances_path ./data/cvrplib_instances_train/ \
+    --eval_instances_path ./data/cvrplib_instances_test/ \
+    --run_output_dir ./rl_q_alm_run_1_output \
+    --instance_results_dir ./rl_q_alm_run_1_output/instance_details \
+    --total_episodes 100 \
+    --start_learning_after_episodes 20 \
+    --log_interval 10 \
+    --eval_episodes 5 \
+    --eval_interval 50 \
+    --max_instance_dimension_train 4 \
+    --max_instance_dimension_eval 4 \
+    --max_alm_iters_env 15 \
+    --q_max_cust_in_subproblem 2 \
+    --q_vqe_max_iter 25 \
+    --q_constraint_penalty 500.0 \
+    --save_interval 50 \
+    --batch_size 16 \
+    --buffer_size 500 \
+    --seed 42
+"""
+
+"""
+python experiments\run_rl_penalty_learner_q_alm_experiment.py --train_instances_path .\data\cvrplib_instances_train\ --eval_instances_path .\data\cvrplib_instances_test\ --run_output_dir .\rl_q_alm_run_longer_output --instance_results_dir .\rl_q_alm_run_longer_output\instance_details --total_episodes 10000 --start_learning_after_episodes 1000 --log_interval 100 --eval_episodes 10 --eval_interval 500 --max_instance_dimension_train 4 --max_instance_dimension_eval 4 --max_alm_iters_env 20 --q_max_cust_in_subproblem 2 --q_vqe_max_iter 30 --q_constraint_penalty 500.0 --save_interval 1000 --batch_size 64 --buffer_size 10000 --seed 42
+"""
