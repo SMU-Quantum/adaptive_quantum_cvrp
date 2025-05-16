@@ -1,0 +1,64 @@
+{
+    "episode_type": "training",
+    "episode_num": 8,
+    "instance_name": "B-n31-k5",
+    "chosen_rho": 1000.0,
+    "chosen_sigma": 999.5323486328125,
+    "alm_cost": 848.0,
+    "alm_iterations": 7,
+    "time_taken_alm_solve": 557.079952955246,
+    "solution_feasible": true,
+    "reward_received": 0.047924528162824845,
+    "routes": [
+        [
+            0,
+            21,
+            16,
+            18,
+            25,
+            5,
+            4,
+            29,
+            0
+        ],
+        [
+            0,
+            8,
+            12,
+            23,
+            7,
+            30,
+            0
+        ],
+        [
+            0,
+            26,
+            28,
+            17,
+            6,
+            19,
+            24,
+            11,
+            14,
+            2,
+            10,
+            0
+        ],
+        [
+            0,
+            22,
+            9,
+            3,
+            13,
+            27,
+            20,
+            0
+        ],
+        [
+            0,
+            1,
+            15,
+            0
+        ]
+    ]
+}

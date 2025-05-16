@@ -1,0 +1,9 @@
+--- Experiment Summary for E-n30-k3 (20250515_100431) ---
+Instance Path: data/cvrplib_instances/E-n30-k3.vrp
+Solve Duration: 59.40 seconds
+ALM Parameters Used: {'initial_penalty_rate': 1.0, 'penalty_increase_factor': 1.1, 'max_penalty_rate': 1000.0, 'max_alm_iterations': 100, 'convergence_tolerance': 0.001, 'subproblem_max_vehicles': None, 'verbose': 0}
+
+No feasible solution found by ALM.
+
+Iteration log saved to: /Users/monitsharma/cvrp_tripartite_solver/results/alm/E-n30-k3/iteration_log_20250515_100431.json
+Solution details saved to: /Users/monitsharma/cvrp_tripartite_solver/results/alm/E-n30-k3/solution_NO_SOLUTION_20250515_100431.txt

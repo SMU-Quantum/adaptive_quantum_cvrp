@@ -1,0 +1,42 @@
+{
+    "episode_type": "training",
+    "episode_num": 15,
+    "instance_name": "E-n13-k4",
+    "chosen_rho": 1000.0,
+    "chosen_sigma": 0.10000000149011612,
+    "alm_cost": 265.0,
+    "alm_iterations": 5,
+    "time_taken_alm_solve": 1.5720200538635254,
+    "solution_feasible": true,
+    "reward_received": 0.32735848914204346,
+    "routes": [
+        [
+            0,
+            2,
+            7,
+            10,
+            6,
+            0
+        ],
+        [
+            0,
+            3,
+            11,
+            8,
+            0
+        ],
+        [
+            0,
+            4,
+            5,
+            12,
+            9,
+            0
+        ],
+        [
+            0,
+            1,
+            0
+        ]
+    ]
+}

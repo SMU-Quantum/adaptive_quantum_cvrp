@@ -1,0 +1,52 @@
+--- Experiment Summary for B-n34-k5 (20250515_100330) ---
+Instance Path: data/cvrplib_instances/B-n34-k5.vrp
+Solve Duration: 15.03 seconds
+ALM Parameters Used: {'initial_penalty_rate': 1.0, 'penalty_increase_factor': 1.1, 'max_penalty_rate': 1000.0, 'max_alm_iterations': 100, 'convergence_tolerance': 0.001, 'subproblem_max_vehicles': None, 'verbose': 0}
+
+Best Solution Found:
+  Is Feasible: True
+
+Routes (customers shown with 1-based indexing as per typical VRP output):
+  Route #1: 2 17 15 25 30 28 4 13 22 3 31 12
+  Route #2: 9 11 34 33 23
+  Route #3: 10 19
+  Route #4: 16 14 29 32 18 26 7 6
+  Route #5: 8 5 21 24 27 20
+Cost 827.00
+
+Final Penalty Parameters (rho):
+  Customer 2 (internal 0-idx 1): 2.36
+  Customer 3 (internal 0-idx 2): 2.85
+  Customer 4 (internal 0-idx 3): 1.95
+  Customer 5 (internal 0-idx 4): 4.59
+  Customer 6 (internal 0-idx 5): 1.61
+  Customer 7 (internal 0-idx 6): 1.77
+  Customer 8 (internal 0-idx 7): 3.80
+  Customer 9 (internal 0-idx 8): 3.14
+  Customer 10 (internal 0-idx 9): 10.83
+  Customer 11 (internal 0-idx 10): 1.95
+  Customer 12 (internal 0-idx 11): 3.80
+  Customer 13 (internal 0-idx 12): 1.95
+  Customer 14 (internal 0-idx 13): 2.14
+  Customer 15 (internal 0-idx 14): 2.59
+  Customer 16 (internal 0-idx 15): 2.14
+  Customer 17 (internal 0-idx 16): 1.95
+  Customer 18 (internal 0-idx 17): 1.95
+  Customer 19 (internal 0-idx 18): 3.80
+  Customer 20 (internal 0-idx 19): 3.45
+  Customer 21 (internal 0-idx 20): 2.14
+  Customer 22 (internal 0-idx 21): 2.85
+  Customer 23 (internal 0-idx 22): 2.14
+  Customer 24 (internal 0-idx 23): 2.36
+  Customer 25 (internal 0-idx 24): 5.56
+  Customer 26 (internal 0-idx 25): 1.95
+  Customer 27 (internal 0-idx 26): 2.36
+  Customer 28 (internal 0-idx 27): 1.95
+  Customer 29 (internal 0-idx 28): 2.14
+  Customer 30 (internal 0-idx 29): 3.45
+  Customer 31 (internal 0-idx 30): 7.40
+  Customer 32 (internal 0-idx 31): 1.95
+  Customer 33 (internal 0-idx 32): 3.45
+  Customer 34 (internal 0-idx 33): 9.85
+Iteration log saved to: /Users/monitsharma/cvrp_tripartite_solver/results/alm/B-n34-k5/iteration_log_20250515_100330.json
+Solution details saved to: /Users/monitsharma/cvrp_tripartite_solver/results/alm/B-n34-k5/solution_20250515_100330.txt

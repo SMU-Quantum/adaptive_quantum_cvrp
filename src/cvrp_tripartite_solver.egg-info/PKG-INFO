@@ -1,0 +1,4 @@
+Metadata-Version: 2.4
+Name: cvrp_tripartite_solver
+Version: 0.1.0
+Summary: A project to solve CVRP using tripartite methodologies.

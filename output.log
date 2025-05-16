@@ -1,0 +1,1922 @@
+--- Running Experiment for Instance: data/cvrplib_instances/E-n13-k4.vrp ---
+Loading instance from: data/cvrplib_instances/E-n13-k4.vrp
+Instance 'E-n13-k4' loaded: Dimension=13, Capacity=6000, Depot=0
+
+Initializing AlmOptimizer with parameters: {'initial_penalty_rate': 1.0, 'penalty_increase_factor': 1.1, 'max_penalty_rate': 1000.0, 'max_alm_iterations': 100, 'convergence_tolerance': 0.001, 'subproblem_max_vehicles': None}
+
+Starting ALM optimization...
+Starting ALM for instance: E-n13-k4
+Parameters: initial_rho=1.0, increase_factor=1.1, max_iter=100, subproblem_max_vehicles_to_generate=4, verbose=2
+
+--- ALM Iteration 1 ---
+  Base Lambda Rewards (first 5): {1: 0.0, 2: 0.0, 3: 0.0, 4: 0.0, 5: 0.0}
+  Attempt 1: Calling ESPPRC with temp_rewards (first 5 different from base): {}
+    ESPPRC returned route: [0, 1, 0], newly covered: {1}
+  Attempt 2: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0}
+    ESPPRC returned route: [0, 2, 0], newly covered: {2}
+  Attempt 3: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 12, 0], newly covered: {12}
+  Attempt 4: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 6, 0], newly covered: {6}
+Subproblem generated 4 routes with original cost 124.00
+Max customer visit violation |g_i|: 1.00, Avg abs violation: 0.82
+Current ALM solution is INFEASIBLE. Violations (sample): {'unvisited_customers': 'Customers not visited: [3, 4, 5, 7, 8, 9, 10, 11].'}
+  Cust 1: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 2: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 3: visits=0, g_i=-1.00, lambda=-1.00, rho=1.10
+  Cust 4: visits=0, g_i=-1.00, lambda=-1.00, rho=1.10
+  Cust 5: visits=0, g_i=-1.00, lambda=-1.00, rho=1.10
+
+--- ALM Iteration 2 ---
+  Base Lambda Rewards (first 5): {1: 0.0, 2: 0.0, 3: -1.0, 4: -1.0, 5: -1.0}
+  Attempt 1: Calling ESPPRC with temp_rewards (first 5 different from base): {}
+    ESPPRC returned route: [0, 1, 0], newly covered: {1}
+  Attempt 2: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0}
+    ESPPRC returned route: [0, 2, 0], newly covered: {2}
+  Attempt 3: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 12, 0], newly covered: {12}
+  Attempt 4: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 6, 0], newly covered: {6}
+Subproblem generated 4 routes with original cost 124.00
+Max customer visit violation |g_i|: 1.00, Avg abs violation: 0.82
+Current ALM solution is INFEASIBLE. Violations (sample): {'unvisited_customers': 'Customers not visited: [3, 4, 5, 7, 8, 9, 10, 11].'}
+  Cust 1: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 2: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 3: visits=0, g_i=-1.00, lambda=-2.10, rho=1.21
+  Cust 4: visits=0, g_i=-1.00, lambda=-2.10, rho=1.21
+  Cust 5: visits=0, g_i=-1.00, lambda=-2.10, rho=1.21
+
+--- ALM Iteration 3 ---
+  Base Lambda Rewards (first 5): {1: 0.0, 2: 0.0, 3: -2.1, 4: -2.1, 5: -2.1}
+  Attempt 1: Calling ESPPRC with temp_rewards (first 5 different from base): {}
+    ESPPRC returned route: [0, 1, 0], newly covered: {1}
+  Attempt 2: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0}
+    ESPPRC returned route: [0, 2, 0], newly covered: {2}
+  Attempt 3: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 12, 0], newly covered: {12}
+  Attempt 4: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 6, 0], newly covered: {6}
+Subproblem generated 4 routes with original cost 124.00
+Max customer visit violation |g_i|: 1.00, Avg abs violation: 0.82
+Current ALM solution is INFEASIBLE. Violations (sample): {'unvisited_customers': 'Customers not visited: [3, 4, 5, 7, 8, 9, 10, 11].'}
+  Cust 1: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 2: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 3: visits=0, g_i=-1.00, lambda=-3.31, rho=1.33
+  Cust 4: visits=0, g_i=-1.00, lambda=-3.31, rho=1.33
+  Cust 5: visits=0, g_i=-1.00, lambda=-3.31, rho=1.33
+
+--- ALM Iteration 4 ---
+  Base Lambda Rewards (first 5): {1: 0.0, 2: 0.0, 3: -3.3100000000000005, 4: -3.3100000000000005, 5: -3.3100000000000005}
+  Attempt 1: Calling ESPPRC with temp_rewards (first 5 different from base): {}
+    ESPPRC returned route: [0, 1, 0], newly covered: {1}
+  Attempt 2: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0}
+    ESPPRC returned route: [0, 2, 0], newly covered: {2}
+  Attempt 3: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 12, 0], newly covered: {12}
+  Attempt 4: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 6, 0], newly covered: {6}
+Subproblem generated 4 routes with original cost 124.00
+Max customer visit violation |g_i|: 1.00, Avg abs violation: 0.82
+Current ALM solution is INFEASIBLE. Violations (sample): {'unvisited_customers': 'Customers not visited: [3, 4, 5, 7, 8, 9, 10, 11].'}
+  Cust 1: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 2: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 3: visits=0, g_i=-1.00, lambda=-4.64, rho=1.46
+  Cust 4: visits=0, g_i=-1.00, lambda=-4.64, rho=1.46
+  Cust 5: visits=0, g_i=-1.00, lambda=-4.64, rho=1.46
+
+--- ALM Iteration 5 ---
+  Base Lambda Rewards (first 5): {1: 0.0, 2: 0.0, 3: -4.641000000000001, 4: -4.641000000000001, 5: -4.641000000000001}
+  Attempt 1: Calling ESPPRC with temp_rewards (first 5 different from base): {}
+    ESPPRC returned route: [0, 1, 0], newly covered: {1}
+  Attempt 2: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0}
+    ESPPRC returned route: [0, 2, 0], newly covered: {2}
+  Attempt 3: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 12, 0], newly covered: {12}
+  Attempt 4: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 6, 0], newly covered: {6}
+Subproblem generated 4 routes with original cost 124.00
+Max customer visit violation |g_i|: 1.00, Avg abs violation: 0.82
+Current ALM solution is INFEASIBLE. Violations (sample): {'unvisited_customers': 'Customers not visited: [3, 4, 5, 7, 8, 9, 10, 11].'}
+  Cust 1: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 2: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 3: visits=0, g_i=-1.00, lambda=-6.11, rho=1.61
+  Cust 4: visits=0, g_i=-1.00, lambda=-6.11, rho=1.61
+  Cust 5: visits=0, g_i=-1.00, lambda=-6.11, rho=1.61
+
+--- ALM Iteration 6 ---
+  Base Lambda Rewards (first 5): {1: 0.0, 2: 0.0, 3: -6.105100000000002, 4: -6.105100000000002, 5: -6.105100000000002}
+  Attempt 1: Calling ESPPRC with temp_rewards (first 5 different from base): {}
+    ESPPRC returned route: [0, 1, 0], newly covered: {1}
+  Attempt 2: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0}
+    ESPPRC returned route: [0, 2, 0], newly covered: {2}
+  Attempt 3: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 12, 0], newly covered: {12}
+  Attempt 4: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 6, 0], newly covered: {6}
+Subproblem generated 4 routes with original cost 124.00
+Max customer visit violation |g_i|: 1.00, Avg abs violation: 0.82
+Current ALM solution is INFEASIBLE. Violations (sample): {'unvisited_customers': 'Customers not visited: [3, 4, 5, 7, 8, 9, 10, 11].'}
+  Cust 1: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 2: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 3: visits=0, g_i=-1.00, lambda=-7.72, rho=1.77
+  Cust 4: visits=0, g_i=-1.00, lambda=-7.72, rho=1.77
+  Cust 5: visits=0, g_i=-1.00, lambda=-7.72, rho=1.77
+
+--- ALM Iteration 7 ---
+  Base Lambda Rewards (first 5): {1: 0.0, 2: 0.0, 3: -7.7156100000000025, 4: -7.7156100000000025, 5: -7.7156100000000025}
+  Attempt 1: Calling ESPPRC with temp_rewards (first 5 different from base): {}
+    ESPPRC returned route: [0, 1, 0], newly covered: {1}
+  Attempt 2: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0}
+    ESPPRC returned route: [0, 2, 0], newly covered: {2}
+  Attempt 3: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 12, 0], newly covered: {12}
+  Attempt 4: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 6, 0], newly covered: {6}
+Subproblem generated 4 routes with original cost 124.00
+Max customer visit violation |g_i|: 1.00, Avg abs violation: 0.82
+Current ALM solution is INFEASIBLE. Violations (sample): {'unvisited_customers': 'Customers not visited: [3, 4, 5, 7, 8, 9, 10, 11].'}
+  Cust 1: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 2: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 3: visits=0, g_i=-1.00, lambda=-9.49, rho=1.95
+  Cust 4: visits=0, g_i=-1.00, lambda=-9.49, rho=1.95
+  Cust 5: visits=0, g_i=-1.00, lambda=-9.49, rho=1.95
+
+--- ALM Iteration 8 ---
+  Base Lambda Rewards (first 5): {1: 0.0, 2: 0.0, 3: -9.487171000000004, 4: -9.487171000000004, 5: -9.487171000000004}
+  Attempt 1: Calling ESPPRC with temp_rewards (first 5 different from base): {}
+    ESPPRC returned route: [0, 1, 0], newly covered: {1}
+  Attempt 2: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0}
+    ESPPRC returned route: [0, 2, 0], newly covered: {2}
+  Attempt 3: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 12, 0], newly covered: {12}
+  Attempt 4: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 6, 0], newly covered: {6}
+Subproblem generated 4 routes with original cost 124.00
+Max customer visit violation |g_i|: 1.00, Avg abs violation: 0.82
+Current ALM solution is INFEASIBLE. Violations (sample): {'unvisited_customers': 'Customers not visited: [3, 4, 5, 7, 8, 9, 10, 11].'}
+  Cust 1: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 2: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 3: visits=0, g_i=-1.00, lambda=-11.44, rho=2.14
+  Cust 4: visits=0, g_i=-1.00, lambda=-11.44, rho=2.14
+  Cust 5: visits=0, g_i=-1.00, lambda=-11.44, rho=2.14
+
+--- ALM Iteration 9 ---
+  Base Lambda Rewards (first 5): {1: 0.0, 2: 0.0, 3: -11.435888100000005, 4: -11.435888100000005, 5: -11.435888100000005}
+  Attempt 1: Calling ESPPRC with temp_rewards (first 5 different from base): {}
+    ESPPRC returned route: [0, 1, 0], newly covered: {1}
+  Attempt 2: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0}
+    ESPPRC returned route: [0, 2, 0], newly covered: {2}
+  Attempt 3: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 12, 0], newly covered: {12}
+  Attempt 4: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 6, 0], newly covered: {6}
+Subproblem generated 4 routes with original cost 124.00
+Max customer visit violation |g_i|: 1.00, Avg abs violation: 0.82
+Current ALM solution is INFEASIBLE. Violations (sample): {'unvisited_customers': 'Customers not visited: [3, 4, 5, 7, 8, 9, 10, 11].'}
+  Cust 1: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 2: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 3: visits=0, g_i=-1.00, lambda=-13.58, rho=2.36
+  Cust 4: visits=0, g_i=-1.00, lambda=-13.58, rho=2.36
+  Cust 5: visits=0, g_i=-1.00, lambda=-13.58, rho=2.36
+
+--- ALM Iteration 10 ---
+  Base Lambda Rewards (first 5): {1: 0.0, 2: 0.0, 3: -13.579476910000007, 4: -13.579476910000007, 5: -13.579476910000007}
+  Attempt 1: Calling ESPPRC with temp_rewards (first 5 different from base): {}
+    ESPPRC returned route: [0, 1, 0], newly covered: {1}
+  Attempt 2: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0}
+    ESPPRC returned route: [0, 2, 0], newly covered: {2}
+  Attempt 3: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 12, 0], newly covered: {12}
+  Attempt 4: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 6, 0], newly covered: {6}
+Subproblem generated 4 routes with original cost 124.00
+Max customer visit violation |g_i|: 1.00, Avg abs violation: 0.82
+Current ALM solution is INFEASIBLE. Violations (sample): {'unvisited_customers': 'Customers not visited: [3, 4, 5, 7, 8, 9, 10, 11].'}
+  Cust 1: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 2: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 3: visits=0, g_i=-1.00, lambda=-15.94, rho=2.59
+  Cust 4: visits=0, g_i=-1.00, lambda=-15.94, rho=2.59
+  Cust 5: visits=0, g_i=-1.00, lambda=-15.94, rho=2.59
+
+--- ALM Iteration 11 ---
+  Base Lambda Rewards (first 5): {1: 0.0, 2: 0.0, 3: -15.937424601000009, 4: -15.937424601000009, 5: -15.937424601000009}
+  Attempt 1: Calling ESPPRC with temp_rewards (first 5 different from base): {}
+    ESPPRC returned route: [0, 1, 0], newly covered: {1}
+  Attempt 2: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0}
+    ESPPRC returned route: [0, 2, 0], newly covered: {2}
+  Attempt 3: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 12, 0], newly covered: {12}
+  Attempt 4: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 6, 0], newly covered: {6}
+Subproblem generated 4 routes with original cost 124.00
+Max customer visit violation |g_i|: 1.00, Avg abs violation: 0.82
+Current ALM solution is INFEASIBLE. Violations (sample): {'unvisited_customers': 'Customers not visited: [3, 4, 5, 7, 8, 9, 10, 11].'}
+  Cust 1: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 2: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 3: visits=0, g_i=-1.00, lambda=-18.53, rho=2.85
+  Cust 4: visits=0, g_i=-1.00, lambda=-18.53, rho=2.85
+  Cust 5: visits=0, g_i=-1.00, lambda=-18.53, rho=2.85
+
+--- ALM Iteration 12 ---
+  Base Lambda Rewards (first 5): {1: 0.0, 2: 0.0, 3: -18.53116706110001, 4: -18.53116706110001, 5: -18.53116706110001}
+  Attempt 1: Calling ESPPRC with temp_rewards (first 5 different from base): {}
+    ESPPRC returned route: [0, 1, 0], newly covered: {1}
+  Attempt 2: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0}
+    ESPPRC returned route: [0, 2, 0], newly covered: {2}
+  Attempt 3: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 12, 0], newly covered: {12}
+  Attempt 4: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 6, 0], newly covered: {6}
+Subproblem generated 4 routes with original cost 124.00
+Max customer visit violation |g_i|: 1.00, Avg abs violation: 0.82
+Current ALM solution is INFEASIBLE. Violations (sample): {'unvisited_customers': 'Customers not visited: [3, 4, 5, 7, 8, 9, 10, 11].'}
+  Cust 1: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 2: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 3: visits=0, g_i=-1.00, lambda=-21.38, rho=3.14
+  Cust 4: visits=0, g_i=-1.00, lambda=-21.38, rho=3.14
+  Cust 5: visits=0, g_i=-1.00, lambda=-21.38, rho=3.14
+
+--- ALM Iteration 13 ---
+  Base Lambda Rewards (first 5): {1: 0.0, 2: 0.0, 3: -21.384283767210015, 4: -21.384283767210015, 5: -21.384283767210015}
+  Attempt 1: Calling ESPPRC with temp_rewards (first 5 different from base): {}
+    ESPPRC returned route: [0, 1, 0], newly covered: {1}
+  Attempt 2: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0}
+    ESPPRC returned route: [0, 2, 0], newly covered: {2}
+  Attempt 3: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 12, 0], newly covered: {12}
+  Attempt 4: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 6, 0], newly covered: {6}
+Subproblem generated 4 routes with original cost 124.00
+Max customer visit violation |g_i|: 1.00, Avg abs violation: 0.82
+Current ALM solution is INFEASIBLE. Violations (sample): {'unvisited_customers': 'Customers not visited: [3, 4, 5, 7, 8, 9, 10, 11].'}
+  Cust 1: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 2: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 3: visits=0, g_i=-1.00, lambda=-24.52, rho=3.45
+  Cust 4: visits=0, g_i=-1.00, lambda=-24.52, rho=3.45
+  Cust 5: visits=0, g_i=-1.00, lambda=-24.52, rho=3.45
+
+--- ALM Iteration 14 ---
+  Base Lambda Rewards (first 5): {1: 0.0, 2: 0.0, 3: -24.522712143931017, 4: -24.522712143931017, 5: -24.522712143931017}
+  Attempt 1: Calling ESPPRC with temp_rewards (first 5 different from base): {}
+    ESPPRC returned route: [0, 1, 0], newly covered: {1}
+  Attempt 2: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0}
+    ESPPRC returned route: [0, 2, 0], newly covered: {2}
+  Attempt 3: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 12, 0], newly covered: {12}
+  Attempt 4: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 6, 0], newly covered: {6}
+Subproblem generated 4 routes with original cost 124.00
+Max customer visit violation |g_i|: 1.00, Avg abs violation: 0.82
+Current ALM solution is INFEASIBLE. Violations (sample): {'unvisited_customers': 'Customers not visited: [3, 4, 5, 7, 8, 9, 10, 11].'}
+  Cust 1: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 2: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 3: visits=0, g_i=-1.00, lambda=-27.97, rho=3.80
+  Cust 4: visits=0, g_i=-1.00, lambda=-27.97, rho=3.80
+  Cust 5: visits=0, g_i=-1.00, lambda=-27.97, rho=3.80
+
+--- ALM Iteration 15 ---
+  Base Lambda Rewards (first 5): {1: 0.0, 2: 0.0, 3: -27.97498335832412, 4: -27.97498335832412, 5: -27.97498335832412}
+  Attempt 1: Calling ESPPRC with temp_rewards (first 5 different from base): {}
+    ESPPRC returned route: [0, 1, 0], newly covered: {1}
+  Attempt 2: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0}
+    ESPPRC returned route: [0, 2, 0], newly covered: {2}
+  Attempt 3: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 12, 0], newly covered: {12}
+  Attempt 4: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 6, 0], newly covered: {6}
+Subproblem generated 4 routes with original cost 124.00
+Max customer visit violation |g_i|: 1.00, Avg abs violation: 0.82
+Current ALM solution is INFEASIBLE. Violations (sample): {'unvisited_customers': 'Customers not visited: [3, 4, 5, 7, 8, 9, 10, 11].'}
+  Cust 1: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 2: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 3: visits=0, g_i=-1.00, lambda=-31.77, rho=4.18
+  Cust 4: visits=0, g_i=-1.00, lambda=-31.77, rho=4.18
+  Cust 5: visits=0, g_i=-1.00, lambda=-31.77, rho=4.18
+
+--- ALM Iteration 16 ---
+  Base Lambda Rewards (first 5): {1: 0.0, 2: 0.0, 3: -31.772481694156536, 4: -31.772481694156536, 5: -31.772481694156536}
+  Attempt 1: Calling ESPPRC with temp_rewards (first 5 different from base): {}
+    ESPPRC returned route: [0, 1, 0], newly covered: {1}
+  Attempt 2: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0}
+    ESPPRC returned route: [0, 2, 0], newly covered: {2}
+  Attempt 3: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 12, 0], newly covered: {12}
+  Attempt 4: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 6, 0], newly covered: {6}
+Subproblem generated 4 routes with original cost 124.00
+Max customer visit violation |g_i|: 1.00, Avg abs violation: 0.82
+Current ALM solution is INFEASIBLE. Violations (sample): {'unvisited_customers': 'Customers not visited: [3, 4, 5, 7, 8, 9, 10, 11].'}
+  Cust 1: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 2: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 3: visits=0, g_i=-1.00, lambda=-35.95, rho=4.59
+  Cust 4: visits=0, g_i=-1.00, lambda=-35.95, rho=4.59
+  Cust 5: visits=0, g_i=-1.00, lambda=-35.95, rho=4.59
+
+--- ALM Iteration 17 ---
+  Base Lambda Rewards (first 5): {1: 0.0, 2: 0.0, 3: -35.949729863572195, 4: -35.949729863572195, 5: -35.949729863572195}
+  Attempt 1: Calling ESPPRC with temp_rewards (first 5 different from base): {}
+    ESPPRC returned route: [0, 1, 0], newly covered: {1}
+  Attempt 2: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0}
+    ESPPRC returned route: [0, 2, 0], newly covered: {2}
+  Attempt 3: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 12, 0], newly covered: {12}
+  Attempt 4: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 6, 0], newly covered: {6}
+Subproblem generated 4 routes with original cost 124.00
+Max customer visit violation |g_i|: 1.00, Avg abs violation: 0.82
+Current ALM solution is INFEASIBLE. Violations (sample): {'unvisited_customers': 'Customers not visited: [3, 4, 5, 7, 8, 9, 10, 11].'}
+  Cust 1: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 2: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 3: visits=0, g_i=-1.00, lambda=-40.54, rho=5.05
+  Cust 4: visits=0, g_i=-1.00, lambda=-40.54, rho=5.05
+  Cust 5: visits=0, g_i=-1.00, lambda=-40.54, rho=5.05
+
+--- ALM Iteration 18 ---
+  Base Lambda Rewards (first 5): {1: 0.0, 2: 0.0, 3: -40.544702849929415, 4: -40.544702849929415, 5: -40.544702849929415}
+  Attempt 1: Calling ESPPRC with temp_rewards (first 5 different from base): {}
+    ESPPRC returned route: [0, 1, 0], newly covered: {1}
+  Attempt 2: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0}
+    ESPPRC returned route: [0, 2, 0], newly covered: {2}
+  Attempt 3: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 12, 0], newly covered: {12}
+  Attempt 4: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 6, 0], newly covered: {6}
+Subproblem generated 4 routes with original cost 124.00
+Max customer visit violation |g_i|: 1.00, Avg abs violation: 0.82
+Current ALM solution is INFEASIBLE. Violations (sample): {'unvisited_customers': 'Customers not visited: [3, 4, 5, 7, 8, 9, 10, 11].'}
+  Cust 1: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 2: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 3: visits=0, g_i=-1.00, lambda=-45.60, rho=5.56
+  Cust 4: visits=0, g_i=-1.00, lambda=-45.60, rho=5.56
+  Cust 5: visits=0, g_i=-1.00, lambda=-45.60, rho=5.56
+
+--- ALM Iteration 19 ---
+  Base Lambda Rewards (first 5): {1: 0.0, 2: 0.0, 3: -45.59917313492236, 4: -45.59917313492236, 5: -45.59917313492236}
+  Attempt 1: Calling ESPPRC with temp_rewards (first 5 different from base): {}
+    ESPPRC returned route: [0, 1, 0], newly covered: {1}
+  Attempt 2: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0}
+    ESPPRC returned route: [0, 2, 0], newly covered: {2}
+  Attempt 3: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 12, 0], newly covered: {12}
+  Attempt 4: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 6, 0], newly covered: {6}
+Subproblem generated 4 routes with original cost 124.00
+Max customer visit violation |g_i|: 1.00, Avg abs violation: 0.82
+Current ALM solution is INFEASIBLE. Violations (sample): {'unvisited_customers': 'Customers not visited: [3, 4, 5, 7, 8, 9, 10, 11].'}
+  Cust 1: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 2: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 3: visits=0, g_i=-1.00, lambda=-51.16, rho=6.12
+  Cust 4: visits=0, g_i=-1.00, lambda=-51.16, rho=6.12
+  Cust 5: visits=0, g_i=-1.00, lambda=-51.16, rho=6.12
+
+--- ALM Iteration 20 ---
+  Base Lambda Rewards (first 5): {1: 0.0, 2: 0.0, 3: -51.1590904484146, 4: -51.1590904484146, 5: -51.1590904484146}
+  Attempt 1: Calling ESPPRC with temp_rewards (first 5 different from base): {}
+    ESPPRC returned route: [0, 1, 0], newly covered: {1}
+  Attempt 2: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0}
+    ESPPRC returned route: [0, 2, 0], newly covered: {2}
+  Attempt 3: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 12, 0], newly covered: {12}
+  Attempt 4: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 6, 0], newly covered: {6}
+Subproblem generated 4 routes with original cost 124.00
+Max customer visit violation |g_i|: 1.00, Avg abs violation: 0.82
+Current ALM solution is INFEASIBLE. Violations (sample): {'unvisited_customers': 'Customers not visited: [3, 4, 5, 7, 8, 9, 10, 11].'}
+  Cust 1: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 2: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 3: visits=0, g_i=-1.00, lambda=-57.27, rho=6.73
+  Cust 4: visits=0, g_i=-1.00, lambda=-57.27, rho=6.73
+  Cust 5: visits=0, g_i=-1.00, lambda=-57.27, rho=6.73
+
+--- ALM Iteration 21 ---
+  Base Lambda Rewards (first 5): {1: 0.0, 2: 0.0, 3: -57.27499949325607, 4: -57.27499949325607, 5: -57.27499949325607}
+  Attempt 1: Calling ESPPRC with temp_rewards (first 5 different from base): {}
+    ESPPRC returned route: [0, 1, 0], newly covered: {1}
+  Attempt 2: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0}
+    ESPPRC returned route: [0, 2, 0], newly covered: {2}
+  Attempt 3: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 12, 0], newly covered: {12}
+  Attempt 4: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 6, 0], newly covered: {6}
+Subproblem generated 4 routes with original cost 124.00
+Max customer visit violation |g_i|: 1.00, Avg abs violation: 0.82
+Current ALM solution is INFEASIBLE. Violations (sample): {'unvisited_customers': 'Customers not visited: [3, 4, 5, 7, 8, 9, 10, 11].'}
+  Cust 1: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 2: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 3: visits=0, g_i=-1.00, lambda=-64.00, rho=7.40
+  Cust 4: visits=0, g_i=-1.00, lambda=-64.00, rho=7.40
+  Cust 5: visits=0, g_i=-1.00, lambda=-64.00, rho=7.40
+
+--- ALM Iteration 22 ---
+  Base Lambda Rewards (first 5): {1: 0.0, 2: 0.0, 3: -64.00249944258168, 4: -64.00249944258168, 5: -64.00249944258168}
+  Attempt 1: Calling ESPPRC with temp_rewards (first 5 different from base): {}
+    ESPPRC returned route: [0, 1, 0], newly covered: {1}
+  Attempt 2: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0}
+    ESPPRC returned route: [0, 2, 0], newly covered: {2}
+  Attempt 3: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 12, 0], newly covered: {12}
+  Attempt 4: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 6, 0], newly covered: {6}
+Subproblem generated 4 routes with original cost 124.00
+Max customer visit violation |g_i|: 1.00, Avg abs violation: 0.82
+Current ALM solution is INFEASIBLE. Violations (sample): {'unvisited_customers': 'Customers not visited: [3, 4, 5, 7, 8, 9, 10, 11].'}
+  Cust 1: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 2: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 3: visits=0, g_i=-1.00, lambda=-71.40, rho=8.14
+  Cust 4: visits=0, g_i=-1.00, lambda=-71.40, rho=8.14
+  Cust 5: visits=0, g_i=-1.00, lambda=-71.40, rho=8.14
+
+--- ALM Iteration 23 ---
+  Base Lambda Rewards (first 5): {1: 0.0, 2: 0.0, 3: -71.40274938683986, 4: -71.40274938683986, 5: -71.40274938683986}
+  Attempt 1: Calling ESPPRC with temp_rewards (first 5 different from base): {}
+    ESPPRC returned route: [0, 1, 0], newly covered: {1}
+  Attempt 2: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0}
+    ESPPRC returned route: [0, 2, 0], newly covered: {2}
+  Attempt 3: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 12, 0], newly covered: {12}
+  Attempt 4: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 6, 0], newly covered: {6}
+Subproblem generated 4 routes with original cost 124.00
+Max customer visit violation |g_i|: 1.00, Avg abs violation: 0.82
+Current ALM solution is INFEASIBLE. Violations (sample): {'unvisited_customers': 'Customers not visited: [3, 4, 5, 7, 8, 9, 10, 11].'}
+  Cust 1: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 2: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 3: visits=0, g_i=-1.00, lambda=-79.54, rho=8.95
+  Cust 4: visits=0, g_i=-1.00, lambda=-79.54, rho=8.95
+  Cust 5: visits=0, g_i=-1.00, lambda=-79.54, rho=8.95
+
+--- ALM Iteration 24 ---
+  Base Lambda Rewards (first 5): {1: 0.0, 2: 0.0, 3: -79.54302432552385, 4: -79.54302432552385, 5: -79.54302432552385}
+  Attempt 1: Calling ESPPRC with temp_rewards (first 5 different from base): {}
+    ESPPRC returned route: [0, 1, 0], newly covered: {1}
+  Attempt 2: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0}
+    ESPPRC returned route: [0, 2, 0], newly covered: {2}
+  Attempt 3: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 12, 0], newly covered: {12}
+  Attempt 4: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 6, 0], newly covered: {6}
+Subproblem generated 4 routes with original cost 124.00
+Max customer visit violation |g_i|: 1.00, Avg abs violation: 0.82
+Current ALM solution is INFEASIBLE. Violations (sample): {'unvisited_customers': 'Customers not visited: [3, 4, 5, 7, 8, 9, 10, 11].'}
+  Cust 1: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 2: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 3: visits=0, g_i=-1.00, lambda=-88.50, rho=9.85
+  Cust 4: visits=0, g_i=-1.00, lambda=-88.50, rho=9.85
+  Cust 5: visits=0, g_i=-1.00, lambda=-88.50, rho=9.85
+
+--- ALM Iteration 25 ---
+  Base Lambda Rewards (first 5): {1: 0.0, 2: 0.0, 3: -88.49732675807624, 4: -88.49732675807624, 5: -88.49732675807624}
+  Attempt 1: Calling ESPPRC with temp_rewards (first 5 different from base): {}
+    ESPPRC returned route: [0, 1, 0], newly covered: {1}
+  Attempt 2: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0}
+    ESPPRC returned route: [0, 2, 0], newly covered: {2}
+  Attempt 3: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 12, 0], newly covered: {12}
+  Attempt 4: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 6, 0], newly covered: {6}
+Subproblem generated 4 routes with original cost 124.00
+Max customer visit violation |g_i|: 1.00, Avg abs violation: 0.82
+Current ALM solution is INFEASIBLE. Violations (sample): {'unvisited_customers': 'Customers not visited: [3, 4, 5, 7, 8, 9, 10, 11].'}
+  Cust 1: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 2: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 3: visits=0, g_i=-1.00, lambda=-98.35, rho=10.83
+  Cust 4: visits=0, g_i=-1.00, lambda=-98.35, rho=10.83
+  Cust 5: visits=0, g_i=-1.00, lambda=-98.35, rho=10.83
+
+--- ALM Iteration 26 ---
+  Base Lambda Rewards (first 5): {1: 0.0, 2: 0.0, 3: -98.34705943388387, 4: -98.34705943388387, 5: -98.34705943388387}
+  Attempt 1: Calling ESPPRC with temp_rewards (first 5 different from base): {}
+    ESPPRC returned route: [0, 1, 0], newly covered: {1}
+  Attempt 2: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0}
+    ESPPRC returned route: [0, 2, 0], newly covered: {2}
+  Attempt 3: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 12, 0], newly covered: {12}
+  Attempt 4: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 6, 0], newly covered: {6}
+Subproblem generated 4 routes with original cost 124.00
+Max customer visit violation |g_i|: 1.00, Avg abs violation: 0.82
+Current ALM solution is INFEASIBLE. Violations (sample): {'unvisited_customers': 'Customers not visited: [3, 4, 5, 7, 8, 9, 10, 11].'}
+  Cust 1: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 2: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 3: visits=0, g_i=-1.00, lambda=-109.18, rho=11.92
+  Cust 4: visits=0, g_i=-1.00, lambda=-109.18, rho=11.92
+  Cust 5: visits=0, g_i=-1.00, lambda=-109.18, rho=11.92
+
+--- ALM Iteration 27 ---
+  Base Lambda Rewards (first 5): {1: 0.0, 2: 0.0, 3: -109.18176537727226, 4: -109.18176537727226, 5: -109.18176537727226}
+  Attempt 1: Calling ESPPRC with temp_rewards (first 5 different from base): {}
+    ESPPRC returned route: [0, 1, 0], newly covered: {1}
+  Attempt 2: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0}
+    ESPPRC returned route: [0, 2, 0], newly covered: {2}
+  Attempt 3: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 12, 0], newly covered: {12}
+  Attempt 4: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 6, 0], newly covered: {6}
+Subproblem generated 4 routes with original cost 124.00
+Max customer visit violation |g_i|: 1.00, Avg abs violation: 0.82
+Current ALM solution is INFEASIBLE. Violations (sample): {'unvisited_customers': 'Customers not visited: [3, 4, 5, 7, 8, 9, 10, 11].'}
+  Cust 1: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 2: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 3: visits=0, g_i=-1.00, lambda=-121.10, rho=13.11
+  Cust 4: visits=0, g_i=-1.00, lambda=-121.10, rho=13.11
+  Cust 5: visits=0, g_i=-1.00, lambda=-121.10, rho=13.11
+
+--- ALM Iteration 28 ---
+  Base Lambda Rewards (first 5): {1: 0.0, 2: 0.0, 3: -121.09994191499949, 4: -121.09994191499949, 5: -121.09994191499949}
+  Attempt 1: Calling ESPPRC with temp_rewards (first 5 different from base): {}
+    ESPPRC returned route: [0, 1, 0], newly covered: {1}
+  Attempt 2: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0}
+    ESPPRC returned route: [0, 2, 0], newly covered: {2}
+  Attempt 3: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 12, 0], newly covered: {12}
+  Attempt 4: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 6, 0], newly covered: {6}
+Subproblem generated 4 routes with original cost 124.00
+Max customer visit violation |g_i|: 1.00, Avg abs violation: 0.82
+Current ALM solution is INFEASIBLE. Violations (sample): {'unvisited_customers': 'Customers not visited: [3, 4, 5, 7, 8, 9, 10, 11].'}
+  Cust 1: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 2: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 3: visits=0, g_i=-1.00, lambda=-134.21, rho=14.42
+  Cust 4: visits=0, g_i=-1.00, lambda=-134.21, rho=14.42
+  Cust 5: visits=0, g_i=-1.00, lambda=-134.21, rho=14.42
+
+--- ALM Iteration 29 ---
+  Base Lambda Rewards (first 5): {1: 0.0, 2: 0.0, 3: -134.20993610649944, 4: -134.20993610649944, 5: -134.20993610649944}
+  Attempt 1: Calling ESPPRC with temp_rewards (first 5 different from base): {}
+    ESPPRC returned route: [0, 1, 0], newly covered: {1}
+  Attempt 2: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0}
+    ESPPRC returned route: [0, 2, 0], newly covered: {2}
+  Attempt 3: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 12, 0], newly covered: {12}
+  Attempt 4: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 6, 0], newly covered: {6}
+Subproblem generated 4 routes with original cost 124.00
+Max customer visit violation |g_i|: 1.00, Avg abs violation: 0.82
+Current ALM solution is INFEASIBLE. Violations (sample): {'unvisited_customers': 'Customers not visited: [3, 4, 5, 7, 8, 9, 10, 11].'}
+  Cust 1: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 2: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 3: visits=0, g_i=-1.00, lambda=-148.63, rho=15.86
+  Cust 4: visits=0, g_i=-1.00, lambda=-148.63, rho=15.86
+  Cust 5: visits=0, g_i=-1.00, lambda=-148.63, rho=15.86
+
+--- ALM Iteration 30 ---
+  Base Lambda Rewards (first 5): {1: 0.0, 2: 0.0, 3: -148.6309297171494, 4: -148.6309297171494, 5: -148.6309297171494}
+  Attempt 1: Calling ESPPRC with temp_rewards (first 5 different from base): {}
+    ESPPRC returned route: [0, 1, 0], newly covered: {1}
+  Attempt 2: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0}
+    ESPPRC returned route: [0, 2, 0], newly covered: {2}
+  Attempt 3: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 12, 0], newly covered: {12}
+  Attempt 4: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 6, 0], newly covered: {6}
+Subproblem generated 4 routes with original cost 124.00
+Max customer visit violation |g_i|: 1.00, Avg abs violation: 0.82
+Current ALM solution is INFEASIBLE. Violations (sample): {'unvisited_customers': 'Customers not visited: [3, 4, 5, 7, 8, 9, 10, 11].'}
+  Cust 1: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 2: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 3: visits=0, g_i=-1.00, lambda=-164.49, rho=17.45
+  Cust 4: visits=0, g_i=-1.00, lambda=-164.49, rho=17.45
+  Cust 5: visits=0, g_i=-1.00, lambda=-164.49, rho=17.45
+
+--- ALM Iteration 31 ---
+  Base Lambda Rewards (first 5): {1: 0.0, 2: 0.0, 3: -164.49402268886433, 4: -164.49402268886433, 5: -164.49402268886433}
+  Attempt 1: Calling ESPPRC with temp_rewards (first 5 different from base): {}
+    ESPPRC returned route: [0, 1, 0], newly covered: {1}
+  Attempt 2: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0}
+    ESPPRC returned route: [0, 2, 0], newly covered: {2}
+  Attempt 3: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 12, 0], newly covered: {12}
+  Attempt 4: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 6, 0], newly covered: {6}
+Subproblem generated 4 routes with original cost 124.00
+Max customer visit violation |g_i|: 1.00, Avg abs violation: 0.82
+Current ALM solution is INFEASIBLE. Violations (sample): {'unvisited_customers': 'Customers not visited: [3, 4, 5, 7, 8, 9, 10, 11].'}
+  Cust 1: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 2: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 3: visits=0, g_i=-1.00, lambda=-181.94, rho=19.19
+  Cust 4: visits=0, g_i=-1.00, lambda=-181.94, rho=19.19
+  Cust 5: visits=0, g_i=-1.00, lambda=-181.94, rho=19.19
+
+--- ALM Iteration 32 ---
+  Base Lambda Rewards (first 5): {1: 0.0, 2: 0.0, 3: -181.94342495775078, 4: -181.94342495775078, 5: -181.94342495775078}
+  Attempt 1: Calling ESPPRC with temp_rewards (first 5 different from base): {}
+    ESPPRC returned route: [0, 1, 0], newly covered: {1}
+  Attempt 2: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0}
+    ESPPRC returned route: [0, 2, 0], newly covered: {2}
+  Attempt 3: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 12, 0], newly covered: {12}
+  Attempt 4: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 6, 0], newly covered: {6}
+Subproblem generated 4 routes with original cost 124.00
+Max customer visit violation |g_i|: 1.00, Avg abs violation: 0.82
+Current ALM solution is INFEASIBLE. Violations (sample): {'unvisited_customers': 'Customers not visited: [3, 4, 5, 7, 8, 9, 10, 11].'}
+  Cust 1: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 2: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 3: visits=0, g_i=-1.00, lambda=-201.14, rho=21.11
+  Cust 4: visits=0, g_i=-1.00, lambda=-201.14, rho=21.11
+  Cust 5: visits=0, g_i=-1.00, lambda=-201.14, rho=21.11
+
+--- ALM Iteration 33 ---
+  Base Lambda Rewards (first 5): {1: 0.0, 2: 0.0, 3: -201.13776745352587, 4: -201.13776745352587, 5: -201.13776745352587}
+  Attempt 1: Calling ESPPRC with temp_rewards (first 5 different from base): {}
+    ESPPRC returned route: [0, 1, 0], newly covered: {1}
+  Attempt 2: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0}
+    ESPPRC returned route: [0, 2, 0], newly covered: {2}
+  Attempt 3: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 12, 0], newly covered: {12}
+  Attempt 4: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 6, 0], newly covered: {6}
+Subproblem generated 4 routes with original cost 124.00
+Max customer visit violation |g_i|: 1.00, Avg abs violation: 0.82
+Current ALM solution is INFEASIBLE. Violations (sample): {'unvisited_customers': 'Customers not visited: [3, 4, 5, 7, 8, 9, 10, 11].'}
+  Cust 1: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 2: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 3: visits=0, g_i=-1.00, lambda=-222.25, rho=23.23
+  Cust 4: visits=0, g_i=-1.00, lambda=-222.25, rho=23.23
+  Cust 5: visits=0, g_i=-1.00, lambda=-222.25, rho=23.23
+
+--- ALM Iteration 34 ---
+  Base Lambda Rewards (first 5): {1: 0.0, 2: 0.0, 3: -222.25154419887846, 4: -222.25154419887846, 5: -222.25154419887846}
+  Attempt 1: Calling ESPPRC with temp_rewards (first 5 different from base): {}
+    ESPPRC returned route: [0, 1, 0], newly covered: {1}
+  Attempt 2: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0}
+    ESPPRC returned route: [0, 2, 0], newly covered: {2}
+  Attempt 3: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 12, 0], newly covered: {12}
+  Attempt 4: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 6, 0], newly covered: {6}
+Subproblem generated 4 routes with original cost 124.00
+Max customer visit violation |g_i|: 1.00, Avg abs violation: 0.82
+Current ALM solution is INFEASIBLE. Violations (sample): {'unvisited_customers': 'Customers not visited: [3, 4, 5, 7, 8, 9, 10, 11].'}
+  Cust 1: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 2: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 3: visits=0, g_i=-1.00, lambda=-245.48, rho=25.55
+  Cust 4: visits=0, g_i=-1.00, lambda=-245.48, rho=25.55
+  Cust 5: visits=0, g_i=-1.00, lambda=-245.48, rho=25.55
+
+--- ALM Iteration 35 ---
+  Base Lambda Rewards (first 5): {1: 0.0, 2: 0.0, 3: -245.47669861876633, 4: -245.47669861876633, 5: -245.47669861876633}
+  Attempt 1: Calling ESPPRC with temp_rewards (first 5 different from base): {}
+    ESPPRC returned route: [0, 1, 0], newly covered: {1}
+  Attempt 2: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0}
+    ESPPRC returned route: [0, 2, 0], newly covered: {2}
+  Attempt 3: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 12, 0], newly covered: {12}
+  Attempt 4: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 6, 0], newly covered: {6}
+Subproblem generated 4 routes with original cost 124.00
+Max customer visit violation |g_i|: 1.00, Avg abs violation: 0.82
+Current ALM solution is INFEASIBLE. Violations (sample): {'unvisited_customers': 'Customers not visited: [3, 4, 5, 7, 8, 9, 10, 11].'}
+  Cust 1: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 2: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 3: visits=0, g_i=-1.00, lambda=-271.02, rho=28.10
+  Cust 4: visits=0, g_i=-1.00, lambda=-271.02, rho=28.10
+  Cust 5: visits=0, g_i=-1.00, lambda=-271.02, rho=28.10
+
+--- ALM Iteration 36 ---
+  Base Lambda Rewards (first 5): {1: 0.0, 2: 0.0, 3: -271.024368480643, 4: -271.024368480643, 5: -271.024368480643}
+  Attempt 1: Calling ESPPRC with temp_rewards (first 5 different from base): {}
+    ESPPRC returned route: [0, 1, 0], newly covered: {1}
+  Attempt 2: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0}
+    ESPPRC returned route: [0, 2, 0], newly covered: {2}
+  Attempt 3: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 12, 0], newly covered: {12}
+  Attempt 4: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 6, 0], newly covered: {6}
+Subproblem generated 4 routes with original cost 124.00
+Max customer visit violation |g_i|: 1.00, Avg abs violation: 0.82
+Current ALM solution is INFEASIBLE. Violations (sample): {'unvisited_customers': 'Customers not visited: [3, 4, 5, 7, 8, 9, 10, 11].'}
+  Cust 1: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 2: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 3: visits=0, g_i=-1.00, lambda=-299.13, rho=30.91
+  Cust 4: visits=0, g_i=-1.00, lambda=-299.13, rho=30.91
+  Cust 5: visits=0, g_i=-1.00, lambda=-299.13, rho=30.91
+
+--- ALM Iteration 37 ---
+  Base Lambda Rewards (first 5): {1: 0.0, 2: 0.0, 3: -299.1268053287073, 4: -299.1268053287073, 5: -299.1268053287073}
+  Attempt 1: Calling ESPPRC with temp_rewards (first 5 different from base): {}
+    ESPPRC returned route: [0, 1, 0], newly covered: {1}
+  Attempt 2: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0}
+    ESPPRC returned route: [0, 2, 0], newly covered: {2}
+  Attempt 3: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 12, 0], newly covered: {12}
+  Attempt 4: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 6, 0], newly covered: {6}
+Subproblem generated 4 routes with original cost 124.00
+Max customer visit violation |g_i|: 1.00, Avg abs violation: 0.82
+Current ALM solution is INFEASIBLE. Violations (sample): {'unvisited_customers': 'Customers not visited: [3, 4, 5, 7, 8, 9, 10, 11].'}
+  Cust 1: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 2: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 3: visits=0, g_i=-1.00, lambda=-330.04, rho=34.00
+  Cust 4: visits=0, g_i=-1.00, lambda=-330.04, rho=34.00
+  Cust 5: visits=0, g_i=-1.00, lambda=-330.04, rho=34.00
+
+--- ALM Iteration 38 ---
+  Base Lambda Rewards (first 5): {1: 0.0, 2: 0.0, 3: -330.03948586157804, 4: -330.03948586157804, 5: -330.03948586157804}
+  Attempt 1: Calling ESPPRC with temp_rewards (first 5 different from base): {}
+    ESPPRC returned route: [0, 1, 0], newly covered: {1}
+  Attempt 2: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0}
+    ESPPRC returned route: [0, 2, 0], newly covered: {2}
+  Attempt 3: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 12, 0], newly covered: {12}
+  Attempt 4: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 6, 0], newly covered: {6}
+Subproblem generated 4 routes with original cost 124.00
+Max customer visit violation |g_i|: 1.00, Avg abs violation: 0.82
+Current ALM solution is INFEASIBLE. Violations (sample): {'unvisited_customers': 'Customers not visited: [3, 4, 5, 7, 8, 9, 10, 11].'}
+  Cust 1: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 2: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 3: visits=0, g_i=-1.00, lambda=-364.04, rho=37.40
+  Cust 4: visits=0, g_i=-1.00, lambda=-364.04, rho=37.40
+  Cust 5: visits=0, g_i=-1.00, lambda=-364.04, rho=37.40
+
+--- ALM Iteration 39 ---
+  Base Lambda Rewards (first 5): {1: 0.0, 2: 0.0, 3: -364.0434344477359, 4: -364.0434344477359, 5: -364.0434344477359}
+  Attempt 1: Calling ESPPRC with temp_rewards (first 5 different from base): {}
+    ESPPRC returned route: [0, 1, 0], newly covered: {1}
+  Attempt 2: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0}
+    ESPPRC returned route: [0, 2, 0], newly covered: {2}
+  Attempt 3: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 12, 0], newly covered: {12}
+  Attempt 4: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 6, 0], newly covered: {6}
+Subproblem generated 4 routes with original cost 124.00
+Max customer visit violation |g_i|: 1.00, Avg abs violation: 0.82
+Current ALM solution is INFEASIBLE. Violations (sample): {'unvisited_customers': 'Customers not visited: [3, 4, 5, 7, 8, 9, 10, 11].'}
+  Cust 1: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 2: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 3: visits=0, g_i=-1.00, lambda=-401.45, rho=41.14
+  Cust 4: visits=0, g_i=-1.00, lambda=-401.45, rho=41.14
+  Cust 5: visits=0, g_i=-1.00, lambda=-401.45, rho=41.14
+
+--- ALM Iteration 40 ---
+  Base Lambda Rewards (first 5): {1: 0.0, 2: 0.0, 3: -401.44777789250946, 4: -401.44777789250946, 5: -401.44777789250946}
+  Attempt 1: Calling ESPPRC with temp_rewards (first 5 different from base): {}
+    ESPPRC returned route: [0, 1, 0], newly covered: {1}
+  Attempt 2: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0}
+    ESPPRC returned route: [0, 2, 0], newly covered: {2}
+  Attempt 3: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 12, 0], newly covered: {12}
+  Attempt 4: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 6, 0], newly covered: {6}
+Subproblem generated 4 routes with original cost 124.00
+Max customer visit violation |g_i|: 1.00, Avg abs violation: 0.82
+Current ALM solution is INFEASIBLE. Violations (sample): {'unvisited_customers': 'Customers not visited: [3, 4, 5, 7, 8, 9, 10, 11].'}
+  Cust 1: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 2: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 3: visits=0, g_i=-1.00, lambda=-442.59, rho=45.26
+  Cust 4: visits=0, g_i=-1.00, lambda=-442.59, rho=45.26
+  Cust 5: visits=0, g_i=-1.00, lambda=-442.59, rho=45.26
+
+--- ALM Iteration 41 ---
+  Base Lambda Rewards (first 5): {1: 0.0, 2: 0.0, 3: -442.5925556817604, 4: -442.5925556817604, 5: -442.5925556817604}
+  Attempt 1: Calling ESPPRC with temp_rewards (first 5 different from base): {}
+    ESPPRC returned route: [0, 1, 0], newly covered: {1}
+  Attempt 2: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0}
+    ESPPRC returned route: [0, 2, 0], newly covered: {2}
+  Attempt 3: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 12, 0], newly covered: {12}
+  Attempt 4: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 6, 0], newly covered: {6}
+Subproblem generated 4 routes with original cost 124.00
+Max customer visit violation |g_i|: 1.00, Avg abs violation: 0.82
+Current ALM solution is INFEASIBLE. Violations (sample): {'unvisited_customers': 'Customers not visited: [3, 4, 5, 7, 8, 9, 10, 11].'}
+  Cust 1: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 2: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 3: visits=0, g_i=-1.00, lambda=-487.85, rho=49.79
+  Cust 4: visits=0, g_i=-1.00, lambda=-487.85, rho=49.79
+  Cust 5: visits=0, g_i=-1.00, lambda=-487.85, rho=49.79
+
+--- ALM Iteration 42 ---
+  Base Lambda Rewards (first 5): {1: 0.0, 2: 0.0, 3: -487.8518112499365, 4: -487.8518112499365, 5: -487.8518112499365}
+  Attempt 1: Calling ESPPRC with temp_rewards (first 5 different from base): {}
+    ESPPRC returned route: [0, 1, 0], newly covered: {1}
+  Attempt 2: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0}
+    ESPPRC returned route: [0, 2, 0], newly covered: {2}
+  Attempt 3: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 12, 0], newly covered: {12}
+  Attempt 4: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 6, 0], newly covered: {6}
+Subproblem generated 4 routes with original cost 124.00
+Max customer visit violation |g_i|: 1.00, Avg abs violation: 0.82
+Current ALM solution is INFEASIBLE. Violations (sample): {'unvisited_customers': 'Customers not visited: [3, 4, 5, 7, 8, 9, 10, 11].'}
+  Cust 1: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 2: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 3: visits=0, g_i=-1.00, lambda=-537.64, rho=54.76
+  Cust 4: visits=0, g_i=-1.00, lambda=-537.64, rho=54.76
+  Cust 5: visits=0, g_i=-1.00, lambda=-537.64, rho=54.76
+
+--- ALM Iteration 43 ---
+  Base Lambda Rewards (first 5): {1: 0.0, 2: 0.0, 3: -537.6369923749302, 4: -537.6369923749302, 5: -537.6369923749302}
+  Attempt 1: Calling ESPPRC with temp_rewards (first 5 different from base): {}
+    ESPPRC returned route: [0, 1, 0], newly covered: {1}
+  Attempt 2: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0}
+    ESPPRC returned route: [0, 2, 0], newly covered: {2}
+  Attempt 3: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 12, 0], newly covered: {12}
+  Attempt 4: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 6, 0], newly covered: {6}
+Subproblem generated 4 routes with original cost 124.00
+Max customer visit violation |g_i|: 1.00, Avg abs violation: 0.82
+Current ALM solution is INFEASIBLE. Violations (sample): {'unvisited_customers': 'Customers not visited: [3, 4, 5, 7, 8, 9, 10, 11].'}
+  Cust 1: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 2: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 3: visits=0, g_i=-1.00, lambda=-592.40, rho=60.24
+  Cust 4: visits=0, g_i=-1.00, lambda=-592.40, rho=60.24
+  Cust 5: visits=0, g_i=-1.00, lambda=-592.40, rho=60.24
+
+--- ALM Iteration 44 ---
+  Base Lambda Rewards (first 5): {1: 0.0, 2: 0.0, 3: -592.4006916124232, 4: -592.4006916124232, 5: -592.4006916124232}
+  Attempt 1: Calling ESPPRC with temp_rewards (first 5 different from base): {}
+    ESPPRC returned route: [0, 1, 0], newly covered: {1}
+  Attempt 2: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0}
+    ESPPRC returned route: [0, 2, 0], newly covered: {2}
+  Attempt 3: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 12, 0], newly covered: {12}
+  Attempt 4: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 6, 0], newly covered: {6}
+Subproblem generated 4 routes with original cost 124.00
+Max customer visit violation |g_i|: 1.00, Avg abs violation: 0.82
+Current ALM solution is INFEASIBLE. Violations (sample): {'unvisited_customers': 'Customers not visited: [3, 4, 5, 7, 8, 9, 10, 11].'}
+  Cust 1: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 2: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 3: visits=0, g_i=-1.00, lambda=-652.64, rho=66.26
+  Cust 4: visits=0, g_i=-1.00, lambda=-652.64, rho=66.26
+  Cust 5: visits=0, g_i=-1.00, lambda=-652.64, rho=66.26
+
+--- ALM Iteration 45 ---
+  Base Lambda Rewards (first 5): {1: 0.0, 2: 0.0, 3: -652.6407607736655, 4: -652.6407607736655, 5: -652.6407607736655}
+  Attempt 1: Calling ESPPRC with temp_rewards (first 5 different from base): {}
+    ESPPRC returned route: [0, 1, 0], newly covered: {1}
+  Attempt 2: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0}
+    ESPPRC returned route: [0, 2, 0], newly covered: {2}
+  Attempt 3: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 12, 0], newly covered: {12}
+  Attempt 4: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 6, 0], newly covered: {6}
+Subproblem generated 4 routes with original cost 124.00
+Max customer visit violation |g_i|: 1.00, Avg abs violation: 0.82
+Current ALM solution is INFEASIBLE. Violations (sample): {'unvisited_customers': 'Customers not visited: [3, 4, 5, 7, 8, 9, 10, 11].'}
+  Cust 1: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 2: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 3: visits=0, g_i=-1.00, lambda=-718.90, rho=72.89
+  Cust 4: visits=0, g_i=-1.00, lambda=-718.90, rho=72.89
+  Cust 5: visits=0, g_i=-1.00, lambda=-718.90, rho=72.89
+
+--- ALM Iteration 46 ---
+  Base Lambda Rewards (first 5): {1: 0.0, 2: 0.0, 3: -718.9048368510321, 4: -718.9048368510321, 5: -718.9048368510321}
+  Attempt 1: Calling ESPPRC with temp_rewards (first 5 different from base): {}
+    ESPPRC returned route: [0, 1, 0], newly covered: {1}
+  Attempt 2: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0}
+    ESPPRC returned route: [0, 2, 0], newly covered: {2}
+  Attempt 3: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 12, 0], newly covered: {12}
+  Attempt 4: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 6, 0], newly covered: {6}
+Subproblem generated 4 routes with original cost 124.00
+Max customer visit violation |g_i|: 1.00, Avg abs violation: 0.82
+Current ALM solution is INFEASIBLE. Violations (sample): {'unvisited_customers': 'Customers not visited: [3, 4, 5, 7, 8, 9, 10, 11].'}
+  Cust 1: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 2: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 3: visits=0, g_i=-1.00, lambda=-791.80, rho=80.18
+  Cust 4: visits=0, g_i=-1.00, lambda=-791.80, rho=80.18
+  Cust 5: visits=0, g_i=-1.00, lambda=-791.80, rho=80.18
+
+--- ALM Iteration 47 ---
+  Base Lambda Rewards (first 5): {1: 0.0, 2: 0.0, 3: -791.7953205361354, 4: -791.7953205361354, 5: -791.7953205361354}
+  Attempt 1: Calling ESPPRC with temp_rewards (first 5 different from base): {}
+    ESPPRC returned route: [0, 1, 0], newly covered: {1}
+  Attempt 2: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0}
+    ESPPRC returned route: [0, 2, 0], newly covered: {2}
+  Attempt 3: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 12, 0], newly covered: {12}
+  Attempt 4: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 6, 0], newly covered: {6}
+Subproblem generated 4 routes with original cost 124.00
+Max customer visit violation |g_i|: 1.00, Avg abs violation: 0.82
+Current ALM solution is INFEASIBLE. Violations (sample): {'unvisited_customers': 'Customers not visited: [3, 4, 5, 7, 8, 9, 10, 11].'}
+  Cust 1: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 2: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 3: visits=0, g_i=-1.00, lambda=-871.97, rho=88.20
+  Cust 4: visits=0, g_i=-1.00, lambda=-871.97, rho=88.20
+  Cust 5: visits=0, g_i=-1.00, lambda=-871.97, rho=88.20
+
+--- ALM Iteration 48 ---
+  Base Lambda Rewards (first 5): {1: 0.0, 2: 0.0, 3: -871.9748525897489, 4: -871.9748525897489, 5: -871.9748525897489}
+  Attempt 1: Calling ESPPRC with temp_rewards (first 5 different from base): {}
+    ESPPRC returned route: [0, 1, 0], newly covered: {1}
+  Attempt 2: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0}
+    ESPPRC returned route: [0, 2, 0], newly covered: {2}
+  Attempt 3: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 12, 0], newly covered: {12}
+  Attempt 4: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 6, 0], newly covered: {6}
+Subproblem generated 4 routes with original cost 124.00
+Max customer visit violation |g_i|: 1.00, Avg abs violation: 0.82
+Current ALM solution is INFEASIBLE. Violations (sample): {'unvisited_customers': 'Customers not visited: [3, 4, 5, 7, 8, 9, 10, 11].'}
+  Cust 1: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 2: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 3: visits=0, g_i=-1.00, lambda=-960.17, rho=97.02
+  Cust 4: visits=0, g_i=-1.00, lambda=-960.17, rho=97.02
+  Cust 5: visits=0, g_i=-1.00, lambda=-960.17, rho=97.02
+
+--- ALM Iteration 49 ---
+  Base Lambda Rewards (first 5): {1: 0.0, 2: 0.0, 3: -960.1723378487239, 4: -960.1723378487239, 5: -960.1723378487239}
+  Attempt 1: Calling ESPPRC with temp_rewards (first 5 different from base): {}
+    ESPPRC returned route: [0, 1, 0], newly covered: {1}
+  Attempt 2: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0}
+    ESPPRC returned route: [0, 2, 0], newly covered: {2}
+  Attempt 3: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 12, 0], newly covered: {12}
+  Attempt 4: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 6, 0], newly covered: {6}
+Subproblem generated 4 routes with original cost 124.00
+Max customer visit violation |g_i|: 1.00, Avg abs violation: 0.82
+Current ALM solution is INFEASIBLE. Violations (sample): {'unvisited_customers': 'Customers not visited: [3, 4, 5, 7, 8, 9, 10, 11].'}
+  Cust 1: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 2: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 3: visits=0, g_i=-1.00, lambda=-1057.19, rho=106.72
+  Cust 4: visits=0, g_i=-1.00, lambda=-1057.19, rho=106.72
+  Cust 5: visits=0, g_i=-1.00, lambda=-1057.19, rho=106.72
+
+--- ALM Iteration 50 ---
+  Base Lambda Rewards (first 5): {1: 0.0, 2: 0.0, 3: -1057.1895716335964, 4: -1057.1895716335964, 5: -1057.1895716335964}
+  Attempt 1: Calling ESPPRC with temp_rewards (first 5 different from base): {}
+    ESPPRC returned route: [0, 1, 0], newly covered: {1}
+  Attempt 2: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0}
+    ESPPRC returned route: [0, 2, 0], newly covered: {2}
+  Attempt 3: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 12, 0], newly covered: {12}
+  Attempt 4: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 6, 0], newly covered: {6}
+Subproblem generated 4 routes with original cost 124.00
+Max customer visit violation |g_i|: 1.00, Avg abs violation: 0.82
+Current ALM solution is INFEASIBLE. Violations (sample): {'unvisited_customers': 'Customers not visited: [3, 4, 5, 7, 8, 9, 10, 11].'}
+  Cust 1: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 2: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 3: visits=0, g_i=-1.00, lambda=-1163.91, rho=117.39
+  Cust 4: visits=0, g_i=-1.00, lambda=-1163.91, rho=117.39
+  Cust 5: visits=0, g_i=-1.00, lambda=-1163.91, rho=117.39
+
+--- ALM Iteration 51 ---
+  Base Lambda Rewards (first 5): {1: 0.0, 2: 0.0, 3: -1163.9085287969563, 4: -1163.9085287969563, 5: -1163.9085287969563}
+  Attempt 1: Calling ESPPRC with temp_rewards (first 5 different from base): {}
+    ESPPRC returned route: [0, 1, 0], newly covered: {1}
+  Attempt 2: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0}
+    ESPPRC returned route: [0, 2, 0], newly covered: {2}
+  Attempt 3: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 12, 0], newly covered: {12}
+  Attempt 4: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 6, 0], newly covered: {6}
+Subproblem generated 4 routes with original cost 124.00
+Max customer visit violation |g_i|: 1.00, Avg abs violation: 0.82
+Current ALM solution is INFEASIBLE. Violations (sample): {'unvisited_customers': 'Customers not visited: [3, 4, 5, 7, 8, 9, 10, 11].'}
+  Cust 1: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 2: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 3: visits=0, g_i=-1.00, lambda=-1281.30, rho=129.13
+  Cust 4: visits=0, g_i=-1.00, lambda=-1281.30, rho=129.13
+  Cust 5: visits=0, g_i=-1.00, lambda=-1281.30, rho=129.13
+
+--- ALM Iteration 52 ---
+  Base Lambda Rewards (first 5): {1: 0.0, 2: 0.0, 3: -1281.299381676652, 4: -1281.299381676652, 5: -1281.299381676652}
+  Attempt 1: Calling ESPPRC with temp_rewards (first 5 different from base): {}
+    ESPPRC returned route: [0, 1, 0], newly covered: {1}
+  Attempt 2: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0}
+    ESPPRC returned route: [0, 2, 0], newly covered: {2}
+  Attempt 3: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 12, 0], newly covered: {12}
+  Attempt 4: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 6, 0], newly covered: {6}
+Subproblem generated 4 routes with original cost 124.00
+Max customer visit violation |g_i|: 1.00, Avg abs violation: 0.82
+Current ALM solution is INFEASIBLE. Violations (sample): {'unvisited_customers': 'Customers not visited: [3, 4, 5, 7, 8, 9, 10, 11].'}
+  Cust 1: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 2: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 3: visits=0, g_i=-1.00, lambda=-1410.43, rho=142.04
+  Cust 4: visits=0, g_i=-1.00, lambda=-1410.43, rho=142.04
+  Cust 5: visits=0, g_i=-1.00, lambda=-1410.43, rho=142.04
+
+--- ALM Iteration 53 ---
+  Base Lambda Rewards (first 5): {1: 0.0, 2: 0.0, 3: -1410.4293198443174, 4: -1410.4293198443174, 5: -1410.4293198443174}
+  Attempt 1: Calling ESPPRC with temp_rewards (first 5 different from base): {}
+    ESPPRC returned route: [0, 1, 0], newly covered: {1}
+  Attempt 2: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0}
+    ESPPRC returned route: [0, 2, 0], newly covered: {2}
+  Attempt 3: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 12, 0], newly covered: {12}
+  Attempt 4: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 6, 0], newly covered: {6}
+Subproblem generated 4 routes with original cost 124.00
+Max customer visit violation |g_i|: 1.00, Avg abs violation: 0.82
+Current ALM solution is INFEASIBLE. Violations (sample): {'unvisited_customers': 'Customers not visited: [3, 4, 5, 7, 8, 9, 10, 11].'}
+  Cust 1: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 2: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 3: visits=0, g_i=-1.00, lambda=-1552.47, rho=156.25
+  Cust 4: visits=0, g_i=-1.00, lambda=-1552.47, rho=156.25
+  Cust 5: visits=0, g_i=-1.00, lambda=-1552.47, rho=156.25
+
+--- ALM Iteration 54 ---
+  Base Lambda Rewards (first 5): {1: 0.0, 2: 0.0, 3: -1552.4722518287492, 4: -1552.4722518287492, 5: -1552.4722518287492}
+  Attempt 1: Calling ESPPRC with temp_rewards (first 5 different from base): {}
+    ESPPRC returned route: [0, 1, 0], newly covered: {1}
+  Attempt 2: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0}
+    ESPPRC returned route: [0, 2, 0], newly covered: {2}
+  Attempt 3: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 12, 0], newly covered: {12}
+  Attempt 4: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 6, 0], newly covered: {6}
+Subproblem generated 4 routes with original cost 124.00
+Max customer visit violation |g_i|: 1.00, Avg abs violation: 0.82
+Current ALM solution is INFEASIBLE. Violations (sample): {'unvisited_customers': 'Customers not visited: [3, 4, 5, 7, 8, 9, 10, 11].'}
+  Cust 1: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 2: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 3: visits=0, g_i=-1.00, lambda=-1708.72, rho=171.87
+  Cust 4: visits=0, g_i=-1.00, lambda=-1708.72, rho=171.87
+  Cust 5: visits=0, g_i=-1.00, lambda=-1708.72, rho=171.87
+
+--- ALM Iteration 55 ---
+  Base Lambda Rewards (first 5): {1: 0.0, 2: 0.0, 3: -1708.7194770116243, 4: -1708.7194770116243, 5: -1708.7194770116243}
+  Attempt 1: Calling ESPPRC with temp_rewards (first 5 different from base): {}
+    ESPPRC returned route: [0, 1, 0], newly covered: {1}
+  Attempt 2: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0}
+    ESPPRC returned route: [0, 2, 0], newly covered: {2}
+  Attempt 3: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 12, 0], newly covered: {12}
+  Attempt 4: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 6, 0], newly covered: {6}
+Subproblem generated 4 routes with original cost 124.00
+Max customer visit violation |g_i|: 1.00, Avg abs violation: 0.82
+Current ALM solution is INFEASIBLE. Violations (sample): {'unvisited_customers': 'Customers not visited: [3, 4, 5, 7, 8, 9, 10, 11].'}
+  Cust 1: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 2: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 3: visits=0, g_i=-1.00, lambda=-1880.59, rho=189.06
+  Cust 4: visits=0, g_i=-1.00, lambda=-1880.59, rho=189.06
+  Cust 5: visits=0, g_i=-1.00, lambda=-1880.59, rho=189.06
+
+--- ALM Iteration 56 ---
+  Base Lambda Rewards (first 5): {1: 0.0, 2: 0.0, 3: -1880.5914247127869, 4: -1880.5914247127869, 5: -1880.5914247127869}
+  Attempt 1: Calling ESPPRC with temp_rewards (first 5 different from base): {}
+    ESPPRC returned route: [0, 1, 0], newly covered: {1}
+  Attempt 2: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0}
+    ESPPRC returned route: [0, 2, 0], newly covered: {2}
+  Attempt 3: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 12, 0], newly covered: {12}
+  Attempt 4: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 6, 0], newly covered: {6}
+Subproblem generated 4 routes with original cost 124.00
+Max customer visit violation |g_i|: 1.00, Avg abs violation: 0.82
+Current ALM solution is INFEASIBLE. Violations (sample): {'unvisited_customers': 'Customers not visited: [3, 4, 5, 7, 8, 9, 10, 11].'}
+  Cust 1: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 2: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 3: visits=0, g_i=-1.00, lambda=-2069.65, rho=207.97
+  Cust 4: visits=0, g_i=-1.00, lambda=-2069.65, rho=207.97
+  Cust 5: visits=0, g_i=-1.00, lambda=-2069.65, rho=207.97
+
+--- ALM Iteration 57 ---
+  Base Lambda Rewards (first 5): {1: 0.0, 2: 0.0, 3: -2069.6505671840655, 4: -2069.6505671840655, 5: -2069.6505671840655}
+  Attempt 1: Calling ESPPRC with temp_rewards (first 5 different from base): {}
+    ESPPRC returned route: [0, 1, 0], newly covered: {1}
+  Attempt 2: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0}
+    ESPPRC returned route: [0, 2, 0], newly covered: {2}
+  Attempt 3: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 12, 0], newly covered: {12}
+  Attempt 4: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 6, 0], newly covered: {6}
+Subproblem generated 4 routes with original cost 124.00
+Max customer visit violation |g_i|: 1.00, Avg abs violation: 0.82
+Current ALM solution is INFEASIBLE. Violations (sample): {'unvisited_customers': 'Customers not visited: [3, 4, 5, 7, 8, 9, 10, 11].'}
+  Cust 1: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 2: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 3: visits=0, g_i=-1.00, lambda=-2277.62, rho=228.76
+  Cust 4: visits=0, g_i=-1.00, lambda=-2277.62, rho=228.76
+  Cust 5: visits=0, g_i=-1.00, lambda=-2277.62, rho=228.76
+
+--- ALM Iteration 58 ---
+  Base Lambda Rewards (first 5): {1: 0.0, 2: 0.0, 3: -2277.615623902472, 4: -2277.615623902472, 5: -2277.615623902472}
+  Attempt 1: Calling ESPPRC with temp_rewards (first 5 different from base): {}
+    ESPPRC returned route: [0, 1, 0], newly covered: {1}
+  Attempt 2: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0}
+    ESPPRC returned route: [0, 2, 0], newly covered: {2}
+  Attempt 3: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 12, 0], newly covered: {12}
+  Attempt 4: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 6, 0], newly covered: {6}
+Subproblem generated 4 routes with original cost 124.00
+Max customer visit violation |g_i|: 1.00, Avg abs violation: 0.82
+Current ALM solution is INFEASIBLE. Violations (sample): {'unvisited_customers': 'Customers not visited: [3, 4, 5, 7, 8, 9, 10, 11].'}
+  Cust 1: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 2: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 3: visits=0, g_i=-1.00, lambda=-2506.38, rho=251.64
+  Cust 4: visits=0, g_i=-1.00, lambda=-2506.38, rho=251.64
+  Cust 5: visits=0, g_i=-1.00, lambda=-2506.38, rho=251.64
+
+--- ALM Iteration 59 ---
+  Base Lambda Rewards (first 5): {1: 0.0, 2: 0.0, 3: -2506.3771862927197, 4: -2506.3771862927197, 5: -2506.3771862927197}
+  Attempt 1: Calling ESPPRC with temp_rewards (first 5 different from base): {}
+    ESPPRC returned route: [0, 1, 0], newly covered: {1}
+  Attempt 2: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0}
+    ESPPRC returned route: [0, 2, 0], newly covered: {2}
+  Attempt 3: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 12, 0], newly covered: {12}
+  Attempt 4: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 6, 0], newly covered: {6}
+Subproblem generated 4 routes with original cost 124.00
+Max customer visit violation |g_i|: 1.00, Avg abs violation: 0.82
+Current ALM solution is INFEASIBLE. Violations (sample): {'unvisited_customers': 'Customers not visited: [3, 4, 5, 7, 8, 9, 10, 11].'}
+  Cust 1: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 2: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 3: visits=0, g_i=-1.00, lambda=-2758.01, rho=276.80
+  Cust 4: visits=0, g_i=-1.00, lambda=-2758.01, rho=276.80
+  Cust 5: visits=0, g_i=-1.00, lambda=-2758.01, rho=276.80
+
+--- ALM Iteration 60 ---
+  Base Lambda Rewards (first 5): {1: 0.0, 2: 0.0, 3: -2758.0149049219917, 4: -2758.0149049219917, 5: -2758.0149049219917}
+  Attempt 1: Calling ESPPRC with temp_rewards (first 5 different from base): {}
+    ESPPRC returned route: [0, 1, 0], newly covered: {1}
+  Attempt 2: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0}
+    ESPPRC returned route: [0, 2, 0], newly covered: {2}
+  Attempt 3: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 12, 0], newly covered: {12}
+  Attempt 4: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 6, 0], newly covered: {6}
+Subproblem generated 4 routes with original cost 124.00
+Max customer visit violation |g_i|: 1.00, Avg abs violation: 0.82
+Current ALM solution is INFEASIBLE. Violations (sample): {'unvisited_customers': 'Customers not visited: [3, 4, 5, 7, 8, 9, 10, 11].'}
+  Cust 1: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 2: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 3: visits=0, g_i=-1.00, lambda=-3034.82, rho=304.48
+  Cust 4: visits=0, g_i=-1.00, lambda=-3034.82, rho=304.48
+  Cust 5: visits=0, g_i=-1.00, lambda=-3034.82, rho=304.48
+
+--- ALM Iteration 61 ---
+  Base Lambda Rewards (first 5): {1: 0.0, 2: 0.0, 3: -3034.816395414191, 4: -3034.816395414191, 5: -3034.816395414191}
+  Attempt 1: Calling ESPPRC with temp_rewards (first 5 different from base): {}
+    ESPPRC returned route: [0, 1, 0], newly covered: {1}
+  Attempt 2: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0}
+    ESPPRC returned route: [0, 2, 0], newly covered: {2}
+  Attempt 3: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 12, 0], newly covered: {12}
+  Attempt 4: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 6, 0], newly covered: {6}
+Subproblem generated 4 routes with original cost 124.00
+Max customer visit violation |g_i|: 1.00, Avg abs violation: 0.82
+Current ALM solution is INFEASIBLE. Violations (sample): {'unvisited_customers': 'Customers not visited: [3, 4, 5, 7, 8, 9, 10, 11].'}
+  Cust 1: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 2: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 3: visits=0, g_i=-1.00, lambda=-3339.30, rho=334.93
+  Cust 4: visits=0, g_i=-1.00, lambda=-3339.30, rho=334.93
+  Cust 5: visits=0, g_i=-1.00, lambda=-3339.30, rho=334.93
+
+--- ALM Iteration 62 ---
+  Base Lambda Rewards (first 5): {1: 0.0, 2: 0.0, 3: -3339.2980349556105, 4: -3339.2980349556105, 5: -3339.2980349556105}
+  Attempt 1: Calling ESPPRC with temp_rewards (first 5 different from base): {}
+    ESPPRC returned route: [0, 1, 0], newly covered: {1}
+  Attempt 2: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0}
+    ESPPRC returned route: [0, 2, 0], newly covered: {2}
+  Attempt 3: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 12, 0], newly covered: {12}
+  Attempt 4: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 6, 0], newly covered: {6}
+Subproblem generated 4 routes with original cost 124.00
+Max customer visit violation |g_i|: 1.00, Avg abs violation: 0.82
+Current ALM solution is INFEASIBLE. Violations (sample): {'unvisited_customers': 'Customers not visited: [3, 4, 5, 7, 8, 9, 10, 11].'}
+  Cust 1: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 2: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 3: visits=0, g_i=-1.00, lambda=-3674.23, rho=368.42
+  Cust 4: visits=0, g_i=-1.00, lambda=-3674.23, rho=368.42
+  Cust 5: visits=0, g_i=-1.00, lambda=-3674.23, rho=368.42
+
+--- ALM Iteration 63 ---
+  Base Lambda Rewards (first 5): {1: 0.0, 2: 0.0, 3: -3674.227838451172, 4: -3674.227838451172, 5: -3674.227838451172}
+  Attempt 1: Calling ESPPRC with temp_rewards (first 5 different from base): {}
+    ESPPRC returned route: [0, 1, 0], newly covered: {1}
+  Attempt 2: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0}
+    ESPPRC returned route: [0, 2, 0], newly covered: {2}
+  Attempt 3: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 12, 0], newly covered: {12}
+  Attempt 4: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 6, 0], newly covered: {6}
+Subproblem generated 4 routes with original cost 124.00
+Max customer visit violation |g_i|: 1.00, Avg abs violation: 0.82
+Current ALM solution is INFEASIBLE. Violations (sample): {'unvisited_customers': 'Customers not visited: [3, 4, 5, 7, 8, 9, 10, 11].'}
+  Cust 1: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 2: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 3: visits=0, g_i=-1.00, lambda=-4042.65, rho=405.27
+  Cust 4: visits=0, g_i=-1.00, lambda=-4042.65, rho=405.27
+  Cust 5: visits=0, g_i=-1.00, lambda=-4042.65, rho=405.27
+
+--- ALM Iteration 64 ---
+  Base Lambda Rewards (first 5): {1: 0.0, 2: 0.0, 3: -4042.6506222962894, 4: -4042.6506222962894, 5: -4042.6506222962894}
+  Attempt 1: Calling ESPPRC with temp_rewards (first 5 different from base): {}
+    ESPPRC returned route: [0, 1, 0], newly covered: {1}
+  Attempt 2: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0}
+    ESPPRC returned route: [0, 2, 0], newly covered: {2}
+  Attempt 3: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 12, 0], newly covered: {12}
+  Attempt 4: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 6, 0], newly covered: {6}
+Subproblem generated 4 routes with original cost 124.00
+Max customer visit violation |g_i|: 1.00, Avg abs violation: 0.82
+Current ALM solution is INFEASIBLE. Violations (sample): {'unvisited_customers': 'Customers not visited: [3, 4, 5, 7, 8, 9, 10, 11].'}
+  Cust 1: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 2: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 3: visits=0, g_i=-1.00, lambda=-4447.92, rho=445.79
+  Cust 4: visits=0, g_i=-1.00, lambda=-4447.92, rho=445.79
+  Cust 5: visits=0, g_i=-1.00, lambda=-4447.92, rho=445.79
+
+--- ALM Iteration 65 ---
+  Base Lambda Rewards (first 5): {1: 0.0, 2: 0.0, 3: -4447.915684525919, 4: -4447.915684525919, 5: -4447.915684525919}
+  Attempt 1: Calling ESPPRC with temp_rewards (first 5 different from base): {}
+    ESPPRC returned route: [0, 1, 0], newly covered: {1}
+  Attempt 2: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0}
+    ESPPRC returned route: [0, 2, 0], newly covered: {2}
+  Attempt 3: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 12, 0], newly covered: {12}
+  Attempt 4: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 6, 0], newly covered: {6}
+Subproblem generated 4 routes with original cost 124.00
+Max customer visit violation |g_i|: 1.00, Avg abs violation: 0.82
+Current ALM solution is INFEASIBLE. Violations (sample): {'unvisited_customers': 'Customers not visited: [3, 4, 5, 7, 8, 9, 10, 11].'}
+  Cust 1: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 2: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 3: visits=0, g_i=-1.00, lambda=-4893.71, rho=490.37
+  Cust 4: visits=0, g_i=-1.00, lambda=-4893.71, rho=490.37
+  Cust 5: visits=0, g_i=-1.00, lambda=-4893.71, rho=490.37
+
+--- ALM Iteration 66 ---
+  Base Lambda Rewards (first 5): {1: 0.0, 2: 0.0, 3: -4893.707252978511, 4: -4893.707252978511, 5: -4893.707252978511}
+  Attempt 1: Calling ESPPRC with temp_rewards (first 5 different from base): {}
+    ESPPRC returned route: [0, 1, 0], newly covered: {1}
+  Attempt 2: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0}
+    ESPPRC returned route: [0, 2, 0], newly covered: {2}
+  Attempt 3: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 12, 0], newly covered: {12}
+  Attempt 4: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 6, 0], newly covered: {6}
+Subproblem generated 4 routes with original cost 124.00
+Max customer visit violation |g_i|: 1.00, Avg abs violation: 0.82
+Current ALM solution is INFEASIBLE. Violations (sample): {'unvisited_customers': 'Customers not visited: [3, 4, 5, 7, 8, 9, 10, 11].'}
+  Cust 1: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 2: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 3: visits=0, g_i=-1.00, lambda=-5384.08, rho=539.41
+  Cust 4: visits=0, g_i=-1.00, lambda=-5384.08, rho=539.41
+  Cust 5: visits=0, g_i=-1.00, lambda=-5384.08, rho=539.41
+
+--- ALM Iteration 67 ---
+  Base Lambda Rewards (first 5): {1: 0.0, 2: 0.0, 3: -5384.077978276362, 4: -5384.077978276362, 5: -5384.077978276362}
+  Attempt 1: Calling ESPPRC with temp_rewards (first 5 different from base): {}
+    ESPPRC returned route: [0, 1, 0], newly covered: {1}
+  Attempt 2: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0}
+    ESPPRC returned route: [0, 2, 0], newly covered: {2}
+  Attempt 3: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 12, 0], newly covered: {12}
+  Attempt 4: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 6, 0], newly covered: {6}
+Subproblem generated 4 routes with original cost 124.00
+Max customer visit violation |g_i|: 1.00, Avg abs violation: 0.82
+Current ALM solution is INFEASIBLE. Violations (sample): {'unvisited_customers': 'Customers not visited: [3, 4, 5, 7, 8, 9, 10, 11].'}
+  Cust 1: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 2: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 3: visits=0, g_i=-1.00, lambda=-5923.49, rho=593.35
+  Cust 4: visits=0, g_i=-1.00, lambda=-5923.49, rho=593.35
+  Cust 5: visits=0, g_i=-1.00, lambda=-5923.49, rho=593.35
+
+--- ALM Iteration 68 ---
+  Base Lambda Rewards (first 5): {1: 0.0, 2: 0.0, 3: -5923.485776103998, 4: -5923.485776103998, 5: -5923.485776103998}
+  Attempt 1: Calling ESPPRC with temp_rewards (first 5 different from base): {}
+    ESPPRC returned route: [0, 1, 0], newly covered: {1}
+  Attempt 2: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0}
+    ESPPRC returned route: [0, 2, 0], newly covered: {2}
+  Attempt 3: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 12, 0], newly covered: {12}
+  Attempt 4: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 6, 0], newly covered: {6}
+Subproblem generated 4 routes with original cost 124.00
+Max customer visit violation |g_i|: 1.00, Avg abs violation: 0.82
+Current ALM solution is INFEASIBLE. Violations (sample): {'unvisited_customers': 'Customers not visited: [3, 4, 5, 7, 8, 9, 10, 11].'}
+  Cust 1: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 2: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 3: visits=0, g_i=-1.00, lambda=-6516.83, rho=652.68
+  Cust 4: visits=0, g_i=-1.00, lambda=-6516.83, rho=652.68
+  Cust 5: visits=0, g_i=-1.00, lambda=-6516.83, rho=652.68
+
+--- ALM Iteration 69 ---
+  Base Lambda Rewards (first 5): {1: 0.0, 2: 0.0, 3: -6516.834353714399, 4: -6516.834353714399, 5: -6516.834353714399}
+  Attempt 1: Calling ESPPRC with temp_rewards (first 5 different from base): {}
+    ESPPRC returned route: [0, 1, 0], newly covered: {1}
+  Attempt 2: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0}
+    ESPPRC returned route: [0, 2, 0], newly covered: {2}
+  Attempt 3: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 12, 0], newly covered: {12}
+  Attempt 4: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 6, 0], newly covered: {6}
+Subproblem generated 4 routes with original cost 124.00
+Max customer visit violation |g_i|: 1.00, Avg abs violation: 0.82
+Current ALM solution is INFEASIBLE. Violations (sample): {'unvisited_customers': 'Customers not visited: [3, 4, 5, 7, 8, 9, 10, 11].'}
+  Cust 1: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 2: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 3: visits=0, g_i=-1.00, lambda=-7169.52, rho=717.95
+  Cust 4: visits=0, g_i=-1.00, lambda=-7169.52, rho=717.95
+  Cust 5: visits=0, g_i=-1.00, lambda=-7169.52, rho=717.95
+
+--- ALM Iteration 70 ---
+  Base Lambda Rewards (first 5): {1: 0.0, 2: 0.0, 3: -7169.5177890858395, 4: -7169.5177890858395, 5: -7169.5177890858395}
+  Attempt 1: Calling ESPPRC with temp_rewards (first 5 different from base): {}
+    ESPPRC returned route: [0, 1, 0], newly covered: {1}
+  Attempt 2: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0}
+    ESPPRC returned route: [0, 2, 0], newly covered: {2}
+  Attempt 3: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 12, 0], newly covered: {12}
+  Attempt 4: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 6, 0], newly covered: {6}
+Subproblem generated 4 routes with original cost 124.00
+Max customer visit violation |g_i|: 1.00, Avg abs violation: 0.82
+Current ALM solution is INFEASIBLE. Violations (sample): {'unvisited_customers': 'Customers not visited: [3, 4, 5, 7, 8, 9, 10, 11].'}
+  Cust 1: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 2: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 3: visits=0, g_i=-1.00, lambda=-7887.47, rho=789.75
+  Cust 4: visits=0, g_i=-1.00, lambda=-7887.47, rho=789.75
+  Cust 5: visits=0, g_i=-1.00, lambda=-7887.47, rho=789.75
+
+--- ALM Iteration 71 ---
+  Base Lambda Rewards (first 5): {1: 0.0, 2: 0.0, 3: -7887.469567994424, 4: -7887.469567994424, 5: -7887.469567994424}
+  Attempt 1: Calling ESPPRC with temp_rewards (first 5 different from base): {}
+    ESPPRC returned route: [0, 1, 0], newly covered: {1}
+  Attempt 2: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0}
+    ESPPRC returned route: [0, 2, 0], newly covered: {2}
+  Attempt 3: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 12, 0], newly covered: {12}
+  Attempt 4: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 6, 0], newly covered: {6}
+Subproblem generated 4 routes with original cost 124.00
+Max customer visit violation |g_i|: 1.00, Avg abs violation: 0.82
+Current ALM solution is INFEASIBLE. Violations (sample): {'unvisited_customers': 'Customers not visited: [3, 4, 5, 7, 8, 9, 10, 11].'}
+  Cust 1: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 2: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 3: visits=0, g_i=-1.00, lambda=-8677.22, rho=868.72
+  Cust 4: visits=0, g_i=-1.00, lambda=-8677.22, rho=868.72
+  Cust 5: visits=0, g_i=-1.00, lambda=-8677.22, rho=868.72
+
+--- ALM Iteration 72 ---
+  Base Lambda Rewards (first 5): {1: 0.0, 2: 0.0, 3: -8677.216524793868, 4: -8677.216524793868, 5: -8677.216524793868}
+  Attempt 1: Calling ESPPRC with temp_rewards (first 5 different from base): {}
+    ESPPRC returned route: [0, 1, 0], newly covered: {1}
+  Attempt 2: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0}
+    ESPPRC returned route: [0, 2, 0], newly covered: {2}
+  Attempt 3: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 12, 0], newly covered: {12}
+  Attempt 4: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 6, 0], newly covered: {6}
+Subproblem generated 4 routes with original cost 124.00
+Max customer visit violation |g_i|: 1.00, Avg abs violation: 0.82
+Current ALM solution is INFEASIBLE. Violations (sample): {'unvisited_customers': 'Customers not visited: [3, 4, 5, 7, 8, 9, 10, 11].'}
+  Cust 1: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 2: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 3: visits=0, g_i=-1.00, lambda=-9545.94, rho=955.59
+  Cust 4: visits=0, g_i=-1.00, lambda=-9545.94, rho=955.59
+  Cust 5: visits=0, g_i=-1.00, lambda=-9545.94, rho=955.59
+
+--- ALM Iteration 73 ---
+  Base Lambda Rewards (first 5): {1: 0.0, 2: 0.0, 3: -9545.938177273256, 4: -9545.938177273256, 5: -9545.938177273256}
+  Attempt 1: Calling ESPPRC with temp_rewards (first 5 different from base): {}
+    ESPPRC returned route: [0, 1, 0], newly covered: {1}
+  Attempt 2: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0}
+    ESPPRC returned route: [0, 2, 0], newly covered: {2}
+  Attempt 3: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 12, 0], newly covered: {12}
+  Attempt 4: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 6, 0], newly covered: {6}
+Subproblem generated 4 routes with original cost 124.00
+Max customer visit violation |g_i|: 1.00, Avg abs violation: 0.82
+Current ALM solution is INFEASIBLE. Violations (sample): {'unvisited_customers': 'Customers not visited: [3, 4, 5, 7, 8, 9, 10, 11].'}
+  Cust 1: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 2: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 3: visits=0, g_i=-1.00, lambda=-10501.53, rho=1000.00
+  Cust 4: visits=0, g_i=-1.00, lambda=-10501.53, rho=1000.00
+  Cust 5: visits=0, g_i=-1.00, lambda=-10501.53, rho=1000.00
+
+--- ALM Iteration 74 ---
+  Base Lambda Rewards (first 5): {1: 0.0, 2: 0.0, 3: -10501.531995000581, 4: -10501.531995000581, 5: -10501.531995000581}
+  Attempt 1: Calling ESPPRC with temp_rewards (first 5 different from base): {}
+    ESPPRC returned route: [0, 1, 0], newly covered: {1}
+  Attempt 2: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0}
+    ESPPRC returned route: [0, 2, 0], newly covered: {2}
+  Attempt 3: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 12, 0], newly covered: {12}
+  Attempt 4: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 6, 0], newly covered: {6}
+Subproblem generated 4 routes with original cost 124.00
+Max customer visit violation |g_i|: 1.00, Avg abs violation: 0.82
+Current ALM solution is INFEASIBLE. Violations (sample): {'unvisited_customers': 'Customers not visited: [3, 4, 5, 7, 8, 9, 10, 11].'}
+  Cust 1: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 2: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 3: visits=0, g_i=-1.00, lambda=-11501.53, rho=1000.00
+  Cust 4: visits=0, g_i=-1.00, lambda=-11501.53, rho=1000.00
+  Cust 5: visits=0, g_i=-1.00, lambda=-11501.53, rho=1000.00
+
+--- ALM Iteration 75 ---
+  Base Lambda Rewards (first 5): {1: 0.0, 2: 0.0, 3: -11501.531995000581, 4: -11501.531995000581, 5: -11501.531995000581}
+  Attempt 1: Calling ESPPRC with temp_rewards (first 5 different from base): {}
+    ESPPRC returned route: [0, 1, 0], newly covered: {1}
+  Attempt 2: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0}
+    ESPPRC returned route: [0, 2, 0], newly covered: {2}
+  Attempt 3: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 12, 0], newly covered: {12}
+  Attempt 4: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 6, 0], newly covered: {6}
+Subproblem generated 4 routes with original cost 124.00
+Max customer visit violation |g_i|: 1.00, Avg abs violation: 0.82
+Current ALM solution is INFEASIBLE. Violations (sample): {'unvisited_customers': 'Customers not visited: [3, 4, 5, 7, 8, 9, 10, 11].'}
+  Cust 1: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 2: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 3: visits=0, g_i=-1.00, lambda=-12501.53, rho=1000.00
+  Cust 4: visits=0, g_i=-1.00, lambda=-12501.53, rho=1000.00
+  Cust 5: visits=0, g_i=-1.00, lambda=-12501.53, rho=1000.00
+
+--- ALM Iteration 76 ---
+  Base Lambda Rewards (first 5): {1: 0.0, 2: 0.0, 3: -12501.531995000581, 4: -12501.531995000581, 5: -12501.531995000581}
+  Attempt 1: Calling ESPPRC with temp_rewards (first 5 different from base): {}
+    ESPPRC returned route: [0, 1, 0], newly covered: {1}
+  Attempt 2: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0}
+    ESPPRC returned route: [0, 2, 0], newly covered: {2}
+  Attempt 3: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 12, 0], newly covered: {12}
+  Attempt 4: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 6, 0], newly covered: {6}
+Subproblem generated 4 routes with original cost 124.00
+Max customer visit violation |g_i|: 1.00, Avg abs violation: 0.82
+Current ALM solution is INFEASIBLE. Violations (sample): {'unvisited_customers': 'Customers not visited: [3, 4, 5, 7, 8, 9, 10, 11].'}
+  Cust 1: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 2: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 3: visits=0, g_i=-1.00, lambda=-13501.53, rho=1000.00
+  Cust 4: visits=0, g_i=-1.00, lambda=-13501.53, rho=1000.00
+  Cust 5: visits=0, g_i=-1.00, lambda=-13501.53, rho=1000.00
+
+--- ALM Iteration 77 ---
+  Base Lambda Rewards (first 5): {1: 0.0, 2: 0.0, 3: -13501.531995000581, 4: -13501.531995000581, 5: -13501.531995000581}
+  Attempt 1: Calling ESPPRC with temp_rewards (first 5 different from base): {}
+    ESPPRC returned route: [0, 1, 0], newly covered: {1}
+  Attempt 2: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0}
+    ESPPRC returned route: [0, 2, 0], newly covered: {2}
+  Attempt 3: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 12, 0], newly covered: {12}
+  Attempt 4: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 6, 0], newly covered: {6}
+Subproblem generated 4 routes with original cost 124.00
+Max customer visit violation |g_i|: 1.00, Avg abs violation: 0.82
+Current ALM solution is INFEASIBLE. Violations (sample): {'unvisited_customers': 'Customers not visited: [3, 4, 5, 7, 8, 9, 10, 11].'}
+  Cust 1: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 2: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 3: visits=0, g_i=-1.00, lambda=-14501.53, rho=1000.00
+  Cust 4: visits=0, g_i=-1.00, lambda=-14501.53, rho=1000.00
+  Cust 5: visits=0, g_i=-1.00, lambda=-14501.53, rho=1000.00
+
+--- ALM Iteration 78 ---
+  Base Lambda Rewards (first 5): {1: 0.0, 2: 0.0, 3: -14501.531995000581, 4: -14501.531995000581, 5: -14501.531995000581}
+  Attempt 1: Calling ESPPRC with temp_rewards (first 5 different from base): {}
+    ESPPRC returned route: [0, 1, 0], newly covered: {1}
+  Attempt 2: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0}
+    ESPPRC returned route: [0, 2, 0], newly covered: {2}
+  Attempt 3: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 12, 0], newly covered: {12}
+  Attempt 4: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 6, 0], newly covered: {6}
+Subproblem generated 4 routes with original cost 124.00
+Max customer visit violation |g_i|: 1.00, Avg abs violation: 0.82
+Current ALM solution is INFEASIBLE. Violations (sample): {'unvisited_customers': 'Customers not visited: [3, 4, 5, 7, 8, 9, 10, 11].'}
+  Cust 1: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 2: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 3: visits=0, g_i=-1.00, lambda=-15501.53, rho=1000.00
+  Cust 4: visits=0, g_i=-1.00, lambda=-15501.53, rho=1000.00
+  Cust 5: visits=0, g_i=-1.00, lambda=-15501.53, rho=1000.00
+
+--- ALM Iteration 79 ---
+  Base Lambda Rewards (first 5): {1: 0.0, 2: 0.0, 3: -15501.531995000581, 4: -15501.531995000581, 5: -15501.531995000581}
+  Attempt 1: Calling ESPPRC with temp_rewards (first 5 different from base): {}
+    ESPPRC returned route: [0, 1, 0], newly covered: {1}
+  Attempt 2: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0}
+    ESPPRC returned route: [0, 2, 0], newly covered: {2}
+  Attempt 3: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 12, 0], newly covered: {12}
+  Attempt 4: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 6, 0], newly covered: {6}
+Subproblem generated 4 routes with original cost 124.00
+Max customer visit violation |g_i|: 1.00, Avg abs violation: 0.82
+Current ALM solution is INFEASIBLE. Violations (sample): {'unvisited_customers': 'Customers not visited: [3, 4, 5, 7, 8, 9, 10, 11].'}
+  Cust 1: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 2: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 3: visits=0, g_i=-1.00, lambda=-16501.53, rho=1000.00
+  Cust 4: visits=0, g_i=-1.00, lambda=-16501.53, rho=1000.00
+  Cust 5: visits=0, g_i=-1.00, lambda=-16501.53, rho=1000.00
+
+--- ALM Iteration 80 ---
+  Base Lambda Rewards (first 5): {1: 0.0, 2: 0.0, 3: -16501.53199500058, 4: -16501.53199500058, 5: -16501.53199500058}
+  Attempt 1: Calling ESPPRC with temp_rewards (first 5 different from base): {}
+    ESPPRC returned route: [0, 1, 0], newly covered: {1}
+  Attempt 2: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0}
+    ESPPRC returned route: [0, 2, 0], newly covered: {2}
+  Attempt 3: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 12, 0], newly covered: {12}
+  Attempt 4: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 6, 0], newly covered: {6}
+Subproblem generated 4 routes with original cost 124.00
+Max customer visit violation |g_i|: 1.00, Avg abs violation: 0.82
+Current ALM solution is INFEASIBLE. Violations (sample): {'unvisited_customers': 'Customers not visited: [3, 4, 5, 7, 8, 9, 10, 11].'}
+  Cust 1: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 2: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 3: visits=0, g_i=-1.00, lambda=-17501.53, rho=1000.00
+  Cust 4: visits=0, g_i=-1.00, lambda=-17501.53, rho=1000.00
+  Cust 5: visits=0, g_i=-1.00, lambda=-17501.53, rho=1000.00
+
+--- ALM Iteration 81 ---
+  Base Lambda Rewards (first 5): {1: 0.0, 2: 0.0, 3: -17501.53199500058, 4: -17501.53199500058, 5: -17501.53199500058}
+  Attempt 1: Calling ESPPRC with temp_rewards (first 5 different from base): {}
+    ESPPRC returned route: [0, 1, 0], newly covered: {1}
+  Attempt 2: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0}
+    ESPPRC returned route: [0, 2, 0], newly covered: {2}
+  Attempt 3: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 12, 0], newly covered: {12}
+  Attempt 4: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 6, 0], newly covered: {6}
+Subproblem generated 4 routes with original cost 124.00
+Max customer visit violation |g_i|: 1.00, Avg abs violation: 0.82
+Current ALM solution is INFEASIBLE. Violations (sample): {'unvisited_customers': 'Customers not visited: [3, 4, 5, 7, 8, 9, 10, 11].'}
+  Cust 1: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 2: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 3: visits=0, g_i=-1.00, lambda=-18501.53, rho=1000.00
+  Cust 4: visits=0, g_i=-1.00, lambda=-18501.53, rho=1000.00
+  Cust 5: visits=0, g_i=-1.00, lambda=-18501.53, rho=1000.00
+
+--- ALM Iteration 82 ---
+  Base Lambda Rewards (first 5): {1: 0.0, 2: 0.0, 3: -18501.53199500058, 4: -18501.53199500058, 5: -18501.53199500058}
+  Attempt 1: Calling ESPPRC with temp_rewards (first 5 different from base): {}
+    ESPPRC returned route: [0, 1, 0], newly covered: {1}
+  Attempt 2: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0}
+    ESPPRC returned route: [0, 2, 0], newly covered: {2}
+  Attempt 3: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 12, 0], newly covered: {12}
+  Attempt 4: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 6, 0], newly covered: {6}
+Subproblem generated 4 routes with original cost 124.00
+Max customer visit violation |g_i|: 1.00, Avg abs violation: 0.82
+Current ALM solution is INFEASIBLE. Violations (sample): {'unvisited_customers': 'Customers not visited: [3, 4, 5, 7, 8, 9, 10, 11].'}
+  Cust 1: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 2: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 3: visits=0, g_i=-1.00, lambda=-19501.53, rho=1000.00
+  Cust 4: visits=0, g_i=-1.00, lambda=-19501.53, rho=1000.00
+  Cust 5: visits=0, g_i=-1.00, lambda=-19501.53, rho=1000.00
+
+--- ALM Iteration 83 ---
+  Base Lambda Rewards (first 5): {1: 0.0, 2: 0.0, 3: -19501.53199500058, 4: -19501.53199500058, 5: -19501.53199500058}
+  Attempt 1: Calling ESPPRC with temp_rewards (first 5 different from base): {}
+    ESPPRC returned route: [0, 1, 0], newly covered: {1}
+  Attempt 2: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0}
+    ESPPRC returned route: [0, 2, 0], newly covered: {2}
+  Attempt 3: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 12, 0], newly covered: {12}
+  Attempt 4: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 6, 0], newly covered: {6}
+Subproblem generated 4 routes with original cost 124.00
+Max customer visit violation |g_i|: 1.00, Avg abs violation: 0.82
+Current ALM solution is INFEASIBLE. Violations (sample): {'unvisited_customers': 'Customers not visited: [3, 4, 5, 7, 8, 9, 10, 11].'}
+  Cust 1: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 2: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 3: visits=0, g_i=-1.00, lambda=-20501.53, rho=1000.00
+  Cust 4: visits=0, g_i=-1.00, lambda=-20501.53, rho=1000.00
+  Cust 5: visits=0, g_i=-1.00, lambda=-20501.53, rho=1000.00
+
+--- ALM Iteration 84 ---
+  Base Lambda Rewards (first 5): {1: 0.0, 2: 0.0, 3: -20501.53199500058, 4: -20501.53199500058, 5: -20501.53199500058}
+  Attempt 1: Calling ESPPRC with temp_rewards (first 5 different from base): {}
+    ESPPRC returned route: [0, 1, 0], newly covered: {1}
+  Attempt 2: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0}
+    ESPPRC returned route: [0, 2, 0], newly covered: {2}
+  Attempt 3: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 12, 0], newly covered: {12}
+  Attempt 4: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 6, 0], newly covered: {6}
+Subproblem generated 4 routes with original cost 124.00
+Max customer visit violation |g_i|: 1.00, Avg abs violation: 0.82
+Current ALM solution is INFEASIBLE. Violations (sample): {'unvisited_customers': 'Customers not visited: [3, 4, 5, 7, 8, 9, 10, 11].'}
+  Cust 1: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 2: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 3: visits=0, g_i=-1.00, lambda=-21501.53, rho=1000.00
+  Cust 4: visits=0, g_i=-1.00, lambda=-21501.53, rho=1000.00
+  Cust 5: visits=0, g_i=-1.00, lambda=-21501.53, rho=1000.00
+
+--- ALM Iteration 85 ---
+  Base Lambda Rewards (first 5): {1: 0.0, 2: 0.0, 3: -21501.53199500058, 4: -21501.53199500058, 5: -21501.53199500058}
+  Attempt 1: Calling ESPPRC with temp_rewards (first 5 different from base): {}
+    ESPPRC returned route: [0, 1, 0], newly covered: {1}
+  Attempt 2: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0}
+    ESPPRC returned route: [0, 2, 0], newly covered: {2}
+  Attempt 3: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 12, 0], newly covered: {12}
+  Attempt 4: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 6, 0], newly covered: {6}
+Subproblem generated 4 routes with original cost 124.00
+Max customer visit violation |g_i|: 1.00, Avg abs violation: 0.82
+Current ALM solution is INFEASIBLE. Violations (sample): {'unvisited_customers': 'Customers not visited: [3, 4, 5, 7, 8, 9, 10, 11].'}
+  Cust 1: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 2: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 3: visits=0, g_i=-1.00, lambda=-22501.53, rho=1000.00
+  Cust 4: visits=0, g_i=-1.00, lambda=-22501.53, rho=1000.00
+  Cust 5: visits=0, g_i=-1.00, lambda=-22501.53, rho=1000.00
+
+--- ALM Iteration 86 ---
+  Base Lambda Rewards (first 5): {1: 0.0, 2: 0.0, 3: -22501.53199500058, 4: -22501.53199500058, 5: -22501.53199500058}
+  Attempt 1: Calling ESPPRC with temp_rewards (first 5 different from base): {}
+    ESPPRC returned route: [0, 1, 0], newly covered: {1}
+  Attempt 2: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0}
+    ESPPRC returned route: [0, 2, 0], newly covered: {2}
+  Attempt 3: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 12, 0], newly covered: {12}
+  Attempt 4: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 6, 0], newly covered: {6}
+Subproblem generated 4 routes with original cost 124.00
+Max customer visit violation |g_i|: 1.00, Avg abs violation: 0.82
+Current ALM solution is INFEASIBLE. Violations (sample): {'unvisited_customers': 'Customers not visited: [3, 4, 5, 7, 8, 9, 10, 11].'}
+  Cust 1: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 2: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 3: visits=0, g_i=-1.00, lambda=-23501.53, rho=1000.00
+  Cust 4: visits=0, g_i=-1.00, lambda=-23501.53, rho=1000.00
+  Cust 5: visits=0, g_i=-1.00, lambda=-23501.53, rho=1000.00
+
+--- ALM Iteration 87 ---
+  Base Lambda Rewards (first 5): {1: 0.0, 2: 0.0, 3: -23501.53199500058, 4: -23501.53199500058, 5: -23501.53199500058}
+  Attempt 1: Calling ESPPRC with temp_rewards (first 5 different from base): {}
+    ESPPRC returned route: [0, 1, 0], newly covered: {1}
+  Attempt 2: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0}
+    ESPPRC returned route: [0, 2, 0], newly covered: {2}
+  Attempt 3: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 12, 0], newly covered: {12}
+  Attempt 4: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 6, 0], newly covered: {6}
+Subproblem generated 4 routes with original cost 124.00
+Max customer visit violation |g_i|: 1.00, Avg abs violation: 0.82
+Current ALM solution is INFEASIBLE. Violations (sample): {'unvisited_customers': 'Customers not visited: [3, 4, 5, 7, 8, 9, 10, 11].'}
+  Cust 1: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 2: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 3: visits=0, g_i=-1.00, lambda=-24501.53, rho=1000.00
+  Cust 4: visits=0, g_i=-1.00, lambda=-24501.53, rho=1000.00
+  Cust 5: visits=0, g_i=-1.00, lambda=-24501.53, rho=1000.00
+
+--- ALM Iteration 88 ---
+  Base Lambda Rewards (first 5): {1: 0.0, 2: 0.0, 3: -24501.53199500058, 4: -24501.53199500058, 5: -24501.53199500058}
+  Attempt 1: Calling ESPPRC with temp_rewards (first 5 different from base): {}
+    ESPPRC returned route: [0, 1, 0], newly covered: {1}
+  Attempt 2: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0}
+    ESPPRC returned route: [0, 2, 0], newly covered: {2}
+  Attempt 3: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 12, 0], newly covered: {12}
+  Attempt 4: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 6, 0], newly covered: {6}
+Subproblem generated 4 routes with original cost 124.00
+Max customer visit violation |g_i|: 1.00, Avg abs violation: 0.82
+Current ALM solution is INFEASIBLE. Violations (sample): {'unvisited_customers': 'Customers not visited: [3, 4, 5, 7, 8, 9, 10, 11].'}
+  Cust 1: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 2: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 3: visits=0, g_i=-1.00, lambda=-25501.53, rho=1000.00
+  Cust 4: visits=0, g_i=-1.00, lambda=-25501.53, rho=1000.00
+  Cust 5: visits=0, g_i=-1.00, lambda=-25501.53, rho=1000.00
+
+--- ALM Iteration 89 ---
+  Base Lambda Rewards (first 5): {1: 0.0, 2: 0.0, 3: -25501.53199500058, 4: -25501.53199500058, 5: -25501.53199500058}
+  Attempt 1: Calling ESPPRC with temp_rewards (first 5 different from base): {}
+    ESPPRC returned route: [0, 1, 0], newly covered: {1}
+  Attempt 2: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0}
+    ESPPRC returned route: [0, 2, 0], newly covered: {2}
+  Attempt 3: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 12, 0], newly covered: {12}
+  Attempt 4: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 6, 0], newly covered: {6}
+Subproblem generated 4 routes with original cost 124.00
+Max customer visit violation |g_i|: 1.00, Avg abs violation: 0.82
+Current ALM solution is INFEASIBLE. Violations (sample): {'unvisited_customers': 'Customers not visited: [3, 4, 5, 7, 8, 9, 10, 11].'}
+  Cust 1: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 2: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 3: visits=0, g_i=-1.00, lambda=-26501.53, rho=1000.00
+  Cust 4: visits=0, g_i=-1.00, lambda=-26501.53, rho=1000.00
+  Cust 5: visits=0, g_i=-1.00, lambda=-26501.53, rho=1000.00
+
+--- ALM Iteration 90 ---
+  Base Lambda Rewards (first 5): {1: 0.0, 2: 0.0, 3: -26501.53199500058, 4: -26501.53199500058, 5: -26501.53199500058}
+  Attempt 1: Calling ESPPRC with temp_rewards (first 5 different from base): {}
+    ESPPRC returned route: [0, 1, 0], newly covered: {1}
+  Attempt 2: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0}
+    ESPPRC returned route: [0, 2, 0], newly covered: {2}
+  Attempt 3: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 12, 0], newly covered: {12}
+  Attempt 4: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 6, 0], newly covered: {6}
+Subproblem generated 4 routes with original cost 124.00
+Max customer visit violation |g_i|: 1.00, Avg abs violation: 0.82
+Current ALM solution is INFEASIBLE. Violations (sample): {'unvisited_customers': 'Customers not visited: [3, 4, 5, 7, 8, 9, 10, 11].'}
+  Cust 1: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 2: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 3: visits=0, g_i=-1.00, lambda=-27501.53, rho=1000.00
+  Cust 4: visits=0, g_i=-1.00, lambda=-27501.53, rho=1000.00
+  Cust 5: visits=0, g_i=-1.00, lambda=-27501.53, rho=1000.00
+
+--- ALM Iteration 91 ---
+  Base Lambda Rewards (first 5): {1: 0.0, 2: 0.0, 3: -27501.53199500058, 4: -27501.53199500058, 5: -27501.53199500058}
+  Attempt 1: Calling ESPPRC with temp_rewards (first 5 different from base): {}
+    ESPPRC returned route: [0, 1, 0], newly covered: {1}
+  Attempt 2: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0}
+    ESPPRC returned route: [0, 2, 0], newly covered: {2}
+  Attempt 3: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 12, 0], newly covered: {12}
+  Attempt 4: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 6, 0], newly covered: {6}
+Subproblem generated 4 routes with original cost 124.00
+Max customer visit violation |g_i|: 1.00, Avg abs violation: 0.82
+Current ALM solution is INFEASIBLE. Violations (sample): {'unvisited_customers': 'Customers not visited: [3, 4, 5, 7, 8, 9, 10, 11].'}
+  Cust 1: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 2: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 3: visits=0, g_i=-1.00, lambda=-28501.53, rho=1000.00
+  Cust 4: visits=0, g_i=-1.00, lambda=-28501.53, rho=1000.00
+  Cust 5: visits=0, g_i=-1.00, lambda=-28501.53, rho=1000.00
+
+--- ALM Iteration 92 ---
+  Base Lambda Rewards (first 5): {1: 0.0, 2: 0.0, 3: -28501.53199500058, 4: -28501.53199500058, 5: -28501.53199500058}
+  Attempt 1: Calling ESPPRC with temp_rewards (first 5 different from base): {}
+    ESPPRC returned route: [0, 1, 0], newly covered: {1}
+  Attempt 2: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0}
+    ESPPRC returned route: [0, 2, 0], newly covered: {2}
+  Attempt 3: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 12, 0], newly covered: {12}
+  Attempt 4: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 6, 0], newly covered: {6}
+Subproblem generated 4 routes with original cost 124.00
+Max customer visit violation |g_i|: 1.00, Avg abs violation: 0.82
+Current ALM solution is INFEASIBLE. Violations (sample): {'unvisited_customers': 'Customers not visited: [3, 4, 5, 7, 8, 9, 10, 11].'}
+  Cust 1: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 2: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 3: visits=0, g_i=-1.00, lambda=-29501.53, rho=1000.00
+  Cust 4: visits=0, g_i=-1.00, lambda=-29501.53, rho=1000.00
+  Cust 5: visits=0, g_i=-1.00, lambda=-29501.53, rho=1000.00
+
+--- ALM Iteration 93 ---
+  Base Lambda Rewards (first 5): {1: 0.0, 2: 0.0, 3: -29501.53199500058, 4: -29501.53199500058, 5: -29501.53199500058}
+  Attempt 1: Calling ESPPRC with temp_rewards (first 5 different from base): {}
+    ESPPRC returned route: [0, 1, 0], newly covered: {1}
+  Attempt 2: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0}
+    ESPPRC returned route: [0, 2, 0], newly covered: {2}
+  Attempt 3: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 12, 0], newly covered: {12}
+  Attempt 4: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 6, 0], newly covered: {6}
+Subproblem generated 4 routes with original cost 124.00
+Max customer visit violation |g_i|: 1.00, Avg abs violation: 0.82
+Current ALM solution is INFEASIBLE. Violations (sample): {'unvisited_customers': 'Customers not visited: [3, 4, 5, 7, 8, 9, 10, 11].'}
+  Cust 1: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 2: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 3: visits=0, g_i=-1.00, lambda=-30501.53, rho=1000.00
+  Cust 4: visits=0, g_i=-1.00, lambda=-30501.53, rho=1000.00
+  Cust 5: visits=0, g_i=-1.00, lambda=-30501.53, rho=1000.00
+
+--- ALM Iteration 94 ---
+  Base Lambda Rewards (first 5): {1: 0.0, 2: 0.0, 3: -30501.53199500058, 4: -30501.53199500058, 5: -30501.53199500058}
+  Attempt 1: Calling ESPPRC with temp_rewards (first 5 different from base): {}
+    ESPPRC returned route: [0, 1, 0], newly covered: {1}
+  Attempt 2: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0}
+    ESPPRC returned route: [0, 2, 0], newly covered: {2}
+  Attempt 3: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 12, 0], newly covered: {12}
+  Attempt 4: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 6, 0], newly covered: {6}
+Subproblem generated 4 routes with original cost 124.00
+Max customer visit violation |g_i|: 1.00, Avg abs violation: 0.82
+Current ALM solution is INFEASIBLE. Violations (sample): {'unvisited_customers': 'Customers not visited: [3, 4, 5, 7, 8, 9, 10, 11].'}
+  Cust 1: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 2: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 3: visits=0, g_i=-1.00, lambda=-31501.53, rho=1000.00
+  Cust 4: visits=0, g_i=-1.00, lambda=-31501.53, rho=1000.00
+  Cust 5: visits=0, g_i=-1.00, lambda=-31501.53, rho=1000.00
+
+--- ALM Iteration 95 ---
+  Base Lambda Rewards (first 5): {1: 0.0, 2: 0.0, 3: -31501.53199500058, 4: -31501.53199500058, 5: -31501.53199500058}
+  Attempt 1: Calling ESPPRC with temp_rewards (first 5 different from base): {}
+    ESPPRC returned route: [0, 1, 0], newly covered: {1}
+  Attempt 2: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0}
+    ESPPRC returned route: [0, 2, 0], newly covered: {2}
+  Attempt 3: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 12, 0], newly covered: {12}
+  Attempt 4: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 6, 0], newly covered: {6}
+Subproblem generated 4 routes with original cost 124.00
+Max customer visit violation |g_i|: 1.00, Avg abs violation: 0.82
+Current ALM solution is INFEASIBLE. Violations (sample): {'unvisited_customers': 'Customers not visited: [3, 4, 5, 7, 8, 9, 10, 11].'}
+  Cust 1: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 2: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 3: visits=0, g_i=-1.00, lambda=-32501.53, rho=1000.00
+  Cust 4: visits=0, g_i=-1.00, lambda=-32501.53, rho=1000.00
+  Cust 5: visits=0, g_i=-1.00, lambda=-32501.53, rho=1000.00
+
+--- ALM Iteration 96 ---
+  Base Lambda Rewards (first 5): {1: 0.0, 2: 0.0, 3: -32501.53199500058, 4: -32501.53199500058, 5: -32501.53199500058}
+  Attempt 1: Calling ESPPRC with temp_rewards (first 5 different from base): {}
+    ESPPRC returned route: [0, 1, 0], newly covered: {1}
+  Attempt 2: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0}
+    ESPPRC returned route: [0, 2, 0], newly covered: {2}
+  Attempt 3: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 12, 0], newly covered: {12}
+  Attempt 4: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 6, 0], newly covered: {6}
+Subproblem generated 4 routes with original cost 124.00
+Max customer visit violation |g_i|: 1.00, Avg abs violation: 0.82
+Current ALM solution is INFEASIBLE. Violations (sample): {'unvisited_customers': 'Customers not visited: [3, 4, 5, 7, 8, 9, 10, 11].'}
+  Cust 1: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 2: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 3: visits=0, g_i=-1.00, lambda=-33501.53, rho=1000.00
+  Cust 4: visits=0, g_i=-1.00, lambda=-33501.53, rho=1000.00
+  Cust 5: visits=0, g_i=-1.00, lambda=-33501.53, rho=1000.00
+
+--- ALM Iteration 97 ---
+  Base Lambda Rewards (first 5): {1: 0.0, 2: 0.0, 3: -33501.53199500058, 4: -33501.53199500058, 5: -33501.53199500058}
+  Attempt 1: Calling ESPPRC with temp_rewards (first 5 different from base): {}
+    ESPPRC returned route: [0, 1, 0], newly covered: {1}
+  Attempt 2: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0}
+    ESPPRC returned route: [0, 2, 0], newly covered: {2}
+  Attempt 3: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 12, 0], newly covered: {12}
+  Attempt 4: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 6, 0], newly covered: {6}
+Subproblem generated 4 routes with original cost 124.00
+Max customer visit violation |g_i|: 1.00, Avg abs violation: 0.82
+Current ALM solution is INFEASIBLE. Violations (sample): {'unvisited_customers': 'Customers not visited: [3, 4, 5, 7, 8, 9, 10, 11].'}
+  Cust 1: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 2: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 3: visits=0, g_i=-1.00, lambda=-34501.53, rho=1000.00
+  Cust 4: visits=0, g_i=-1.00, lambda=-34501.53, rho=1000.00
+  Cust 5: visits=0, g_i=-1.00, lambda=-34501.53, rho=1000.00
+
+--- ALM Iteration 98 ---
+  Base Lambda Rewards (first 5): {1: 0.0, 2: 0.0, 3: -34501.53199500058, 4: -34501.53199500058, 5: -34501.53199500058}
+  Attempt 1: Calling ESPPRC with temp_rewards (first 5 different from base): {}
+    ESPPRC returned route: [0, 1, 0], newly covered: {1}
+  Attempt 2: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0}
+    ESPPRC returned route: [0, 2, 0], newly covered: {2}
+  Attempt 3: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 12, 0], newly covered: {12}
+  Attempt 4: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 6, 0], newly covered: {6}
+Subproblem generated 4 routes with original cost 124.00
+Max customer visit violation |g_i|: 1.00, Avg abs violation: 0.82
+Current ALM solution is INFEASIBLE. Violations (sample): {'unvisited_customers': 'Customers not visited: [3, 4, 5, 7, 8, 9, 10, 11].'}
+  Cust 1: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 2: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 3: visits=0, g_i=-1.00, lambda=-35501.53, rho=1000.00
+  Cust 4: visits=0, g_i=-1.00, lambda=-35501.53, rho=1000.00
+  Cust 5: visits=0, g_i=-1.00, lambda=-35501.53, rho=1000.00
+
+--- ALM Iteration 99 ---
+  Base Lambda Rewards (first 5): {1: 0.0, 2: 0.0, 3: -35501.53199500058, 4: -35501.53199500058, 5: -35501.53199500058}
+  Attempt 1: Calling ESPPRC with temp_rewards (first 5 different from base): {}
+    ESPPRC returned route: [0, 1, 0], newly covered: {1}
+  Attempt 2: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0}
+    ESPPRC returned route: [0, 2, 0], newly covered: {2}
+  Attempt 3: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 12, 0], newly covered: {12}
+  Attempt 4: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 6, 0], newly covered: {6}
+Subproblem generated 4 routes with original cost 124.00
+Max customer visit violation |g_i|: 1.00, Avg abs violation: 0.82
+Current ALM solution is INFEASIBLE. Violations (sample): {'unvisited_customers': 'Customers not visited: [3, 4, 5, 7, 8, 9, 10, 11].'}
+  Cust 1: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 2: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 3: visits=0, g_i=-1.00, lambda=-36501.53, rho=1000.00
+  Cust 4: visits=0, g_i=-1.00, lambda=-36501.53, rho=1000.00
+  Cust 5: visits=0, g_i=-1.00, lambda=-36501.53, rho=1000.00
+
+--- ALM Iteration 100 ---
+  Base Lambda Rewards (first 5): {1: 0.0, 2: 0.0, 3: -36501.53199500058, 4: -36501.53199500058, 5: -36501.53199500058}
+  Attempt 1: Calling ESPPRC with temp_rewards (first 5 different from base): {}
+    ESPPRC returned route: [0, 1, 0], newly covered: {1}
+  Attempt 2: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0}
+    ESPPRC returned route: [0, 2, 0], newly covered: {2}
+  Attempt 3: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 12, 0], newly covered: {12}
+  Attempt 4: Calling ESPPRC with temp_rewards (first 5 different from base): {1: -1000000000.0, 2: -1000000000.0}
+    ESPPRC returned route: [0, 6, 0], newly covered: {6}
+Subproblem generated 4 routes with original cost 124.00
+Max customer visit violation |g_i|: 1.00, Avg abs violation: 0.82
+Current ALM solution is INFEASIBLE. Violations (sample): {'unvisited_customers': 'Customers not visited: [3, 4, 5, 7, 8, 9, 10, 11].'}
+  Cust 1: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 2: visits=1, g_i=0.00, lambda=0.00, rho=1.00
+  Cust 3: visits=0, g_i=-1.00, lambda=-37501.53, rho=1000.00
+  Cust 4: visits=0, g_i=-1.00, lambda=-37501.53, rho=1000.00
+  Cust 5: visits=0, g_i=-1.00, lambda=-37501.53, rho=1000.00
+ALM reached max iterations.
+
+No feasible solution found by ALM.
+ALM optimization finished in 0.07 seconds.
+
+--- Experiment Summary for E-n13-k4 (20250515_091912) ---
+Instance Path: data/cvrplib_instances/E-n13-k4.vrp
+Solve Duration: 0.07 seconds
+ALM Parameters: {'initial_penalty_rate': 1.0, 'penalty_increase_factor': 1.1, 'max_penalty_rate': 1000.0, 'max_alm_iterations': 100, 'convergence_tolerance': 0.001, 'subproblem_max_vehicles': None}
+
+No feasible solution found by ALM.
+  Iteration log saved to: /Users/monitsharma/cvrp_tripartite_solver/results/alm/E-n13-k4/iteration_log_20250515_091912.json
+Summary report saved to: /Users/monitsharma/cvrp_tripartite_solver/results/alm/E-n13-k4/summary_20250515_091912.txt

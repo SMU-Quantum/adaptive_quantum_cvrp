@@ -1,0 +1,12 @@
+{
+    "instance_path": "./data/cvrplib_instances_train/mini-n7-k2.vrp",
+    "instance_name": "mini-n7-k2",
+    "chosen_rho": 1000.0,
+    "chosen_sigma": 1000.0,
+    "solution_cost": null,
+    "raw_solution_cost": 20000.0,
+    "alm_iterations": 15,
+    "is_feasible": false,
+    "time_taken_alm_solve": 2768.701441049576,
+    "routes": []
+}

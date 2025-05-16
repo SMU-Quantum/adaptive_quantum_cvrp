@@ -1,0 +1,26 @@
+Instance: mini-n7-k2
+Is Feasible: True
+Feasibility Details: {
+  "capacity": [],
+  "unvisited_customers": [],
+  "overvisited_customers": [],
+  "depot_not_in_route_ends": []
+}
+
+Routes (customers shown with 1-based indexing, raw 0-based internal in brackets):
+  Route #1: 5 4 2  (Raw internal 0-indexed: [0, 4, 3, 1, 0])
+  Route #2: 3 6 7  (Raw internal 0-indexed: [0, 2, 5, 6, 0])
+
+Cost 140
+
+Final Penalty Parameters (rho):
+  Customer 2 (internal 0-idx 1): 1.46
+  Customer 3 (internal 0-idx 2): 2.85
+  Customer 4 (internal 0-idx 3): 4.18
+  Customer 5 (internal 0-idx 4): 2.59
+  Customer 6 (internal 0-idx 5): 4.18
+  Customer 7 (internal 0-idx 6): 2.85
+
+Final Capacity Multipliers (μ):
+  Vehicle 1: 1200.00
+  Vehicle 2: 0.00

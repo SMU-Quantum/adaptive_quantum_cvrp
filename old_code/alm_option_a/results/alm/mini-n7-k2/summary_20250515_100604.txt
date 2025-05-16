@@ -1,0 +1,22 @@
+--- Experiment Summary for mini-n7-k2 (20250515_100604) ---
+Instance Path: data/cvrplib_instances/mini-n7-k2.vrp
+Solve Duration: 0.00 seconds
+ALM Parameters Used: {'initial_penalty_rate': 1.0, 'penalty_increase_factor': 1.1, 'max_penalty_rate': 1000.0, 'max_alm_iterations': 100, 'convergence_tolerance': 0.001, 'subproblem_max_vehicles': None, 'verbose': 0}
+
+Best Solution Found:
+  Is Feasible: True
+
+Routes (customers shown with 1-based indexing as per typical VRP output):
+  Route #1: 5 4 2
+  Route #2: 3 6 7
+Cost 140.00
+
+Final Penalty Parameters (rho):
+  Customer 2 (internal 0-idx 1): 1.46
+  Customer 3 (internal 0-idx 2): 2.85
+  Customer 4 (internal 0-idx 3): 4.18
+  Customer 5 (internal 0-idx 4): 2.59
+  Customer 6 (internal 0-idx 5): 4.18
+  Customer 7 (internal 0-idx 6): 2.85
+Iteration log saved to: /Users/monitsharma/cvrp_tripartite_solver/results/alm/mini-n7-k2/iteration_log_20250515_100604.json
+Solution details saved to: /Users/monitsharma/cvrp_tripartite_solver/results/alm/mini-n7-k2/solution_20250515_100604.txt

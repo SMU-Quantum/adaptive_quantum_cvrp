@@ -1,0 +1,27 @@
+Instance: E-n13-k4
+File Path: data/cvrplib_instances/E-n13-k4.vrp
+Solve Duration: 0.02 seconds
+ALM Parameters Used: {'initial_penalty_rate': 1.0, 'penalty_increase_factor': 1.1, 'max_penalty_rate': 1000.0, 'max_alm_iterations': 100, 'convergence_tolerance': 0.001, 'subproblem_max_vehicles': None, 'verbose': 0}
+Is Feasible: True
+
+Routes (customers shown with 1-based indexing, raw 0-based internal in brackets):
+  Route #1: 12 5 8 3  (Raw internal 0-indexed: [0, 11, 4, 7, 2, 0])
+  Route #2: 2  (Raw internal 0-indexed: [0, 1, 0])
+  Route #3: 9 6 4  (Raw internal 0-indexed: [0, 8, 5, 3, 0])
+  Route #4: 7 11 13 10  (Raw internal 0-indexed: [0, 6, 10, 12, 9, 0])
+
+Cost 247
+
+Final Penalty Parameters (rho):
+  Customer 2 (internal 0-idx 1): 1.00
+  Customer 3 (internal 0-idx 2): 1.00
+  Customer 4 (internal 0-idx 3): 2.14
+  Customer 5 (internal 0-idx 4): 3.45
+  Customer 6 (internal 0-idx 5): 2.59
+  Customer 7 (internal 0-idx 6): 1.95
+  Customer 8 (internal 0-idx 7): 3.45
+  Customer 9 (internal 0-idx 8): 3.45
+  Customer 10 (internal 0-idx 9): 3.14
+  Customer 11 (internal 0-idx 10): 2.85
+  Customer 12 (internal 0-idx 11): 2.59
+  Customer 13 (internal 0-idx 12): 1.10

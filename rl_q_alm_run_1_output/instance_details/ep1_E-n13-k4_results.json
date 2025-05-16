@@ -1,0 +1,12 @@
+{
+    "instance_path": "./data/cvrplib_instances_train/E-n23-k3.vrp",
+    "instance_name": "E-n23-k3",
+    "chosen_rho": 1000.0,
+    "chosen_sigma": 1000.0,
+    "solution_cost": null,
+    "raw_solution_cost": 20000.0,
+    "alm_iterations": 15,
+    "is_feasible": false,
+    "time_taken_alm_solve": 5677.340571880341,
+    "routes": []
+}

@@ -1,0 +1,19 @@
+Instance: mini-n7-k2
+File Path: data/cvrplib_instances/mini-n7-k2.vrp
+Solve Duration: 0.00 seconds
+ALM Parameters Used: {'initial_penalty_rate': 1.0, 'penalty_increase_factor': 1.1, 'max_penalty_rate': 1000.0, 'max_alm_iterations': 100, 'convergence_tolerance': 0.001, 'subproblem_max_vehicles': None, 'verbose': 0}
+Is Feasible: True
+
+Routes (customers shown with 1-based indexing, raw 0-based internal in brackets):
+  Route #1: 5 4 2  (Raw internal 0-indexed: [0, 4, 3, 1, 0])
+  Route #2: 3 6 7  (Raw internal 0-indexed: [0, 2, 5, 6, 0])
+
+Cost 140
+
+Final Penalty Parameters (rho):
+  Customer 2 (internal 0-idx 1): 1.46
+  Customer 3 (internal 0-idx 2): 2.85
+  Customer 4 (internal 0-idx 3): 4.18
+  Customer 5 (internal 0-idx 4): 2.59
+  Customer 6 (internal 0-idx 5): 4.18
+  Customer 7 (internal 0-idx 6): 2.85

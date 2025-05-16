@@ -1,0 +1,51 @@
+--- Experiment Summary for E-n31-k7 (20250515_100432) ---
+Instance Path: data/cvrplib_instances/E-n31-k7.vrp
+Solve Duration: 0.85 seconds
+ALM Parameters Used: {'initial_penalty_rate': 1.0, 'penalty_increase_factor': 1.1, 'max_penalty_rate': 1000.0, 'max_alm_iterations': 100, 'convergence_tolerance': 0.001, 'subproblem_max_vehicles': None, 'verbose': 0}
+
+Best Solution Found:
+  Is Feasible: True
+
+Routes (customers shown with 1-based indexing as per typical VRP output):
+  Route #1: 25 4 15 6 18 5 23 7 21
+  Route #2: 22 12 17 14 10 29 16
+  Route #3: 28 8 13 19 11
+  Route #4: 27 2 20
+  Route #5: 26 9 3
+  Route #6: 31
+  Route #7: 30 24
+Cost 401.00
+
+Final Penalty Parameters (rho):
+  Customer 2 (internal 0-idx 1): 4.18
+  Customer 3 (internal 0-idx 2): 2.36
+  Customer 4 (internal 0-idx 3): 3.45
+  Customer 5 (internal 0-idx 4): 3.45
+  Customer 6 (internal 0-idx 5): 4.18
+  Customer 7 (internal 0-idx 6): 3.45
+  Customer 8 (internal 0-idx 7): 2.36
+  Customer 9 (internal 0-idx 8): 4.18
+  Customer 10 (internal 0-idx 9): 1.95
+  Customer 11 (internal 0-idx 10): 1.00
+  Customer 12 (internal 0-idx 11): 2.85
+  Customer 13 (internal 0-idx 12): 2.36
+  Customer 14 (internal 0-idx 13): 1.95
+  Customer 15 (internal 0-idx 14): 2.85
+  Customer 16 (internal 0-idx 15): 1.00
+  Customer 17 (internal 0-idx 16): 1.21
+  Customer 18 (internal 0-idx 17): 1.95
+  Customer 19 (internal 0-idx 18): 3.14
+  Customer 20 (internal 0-idx 19): 1.77
+  Customer 21 (internal 0-idx 20): 1.00
+  Customer 22 (internal 0-idx 21): 1.00
+  Customer 23 (internal 0-idx 22): 1.61
+  Customer 24 (internal 0-idx 23): 1.00
+  Customer 25 (internal 0-idx 24): 1.00
+  Customer 26 (internal 0-idx 25): 2.59
+  Customer 27 (internal 0-idx 26): 3.14
+  Customer 28 (internal 0-idx 27): 2.59
+  Customer 29 (internal 0-idx 28): 8.14
+  Customer 30 (internal 0-idx 29): 2.59
+  Customer 31 (internal 0-idx 30): 2.14
+Iteration log saved to: /Users/monitsharma/cvrp_tripartite_solver/results/alm/E-n31-k7/iteration_log_20250515_100432.json
+Solution details saved to: /Users/monitsharma/cvrp_tripartite_solver/results/alm/E-n31-k7/solution_20250515_100432.txt

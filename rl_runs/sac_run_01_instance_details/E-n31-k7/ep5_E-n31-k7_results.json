@@ -1,0 +1,13 @@
+{
+    "episode_type": "training",
+    "episode_num": 5,
+    "instance_name": "E-n31-k7",
+    "chosen_rho": 1000.0,
+    "chosen_sigma": 0.10000000149011612,
+    "alm_cost": "inf",
+    "alm_iterations": 30,
+    "time_taken_alm_solve": 2338.874748945236,
+    "solution_feasible": false,
+    "reward_received": -200.0,
+    "routes": null
+}

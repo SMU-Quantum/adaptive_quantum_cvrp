@@ -1,0 +1,40 @@
+=== ALM Batch Run Summary - 20250515_100312 ===
+Processed Directory/File: data/cvrplib_instances/
+ALM Parameters Used for all instances: {'initial_penalty_rate': 1.0, 'penalty_increase_factor': 1.1, 'max_penalty_rate': 1000.0, 'max_alm_iterations': 100, 'convergence_tolerance': 0.001, 'subproblem_max_vehicles': None, 'verbose': 0}
+
+Instance: B-n31-k5 (B-n31-k5.vrp)
+  Solve Duration: 2.90s
+  Cost: 692.00, Feasible: True, Vehicles: 5
+------------------------------
+Instance: B-n34-k5 (B-n34-k5.vrp)
+  Solve Duration: 15.03s
+  Cost: 827.00, Feasible: True, Vehicles: 5
+------------------------------
+Instance: E-n13-k4 (E-n13-k4.vrp)
+  Solve Duration: 0.02s
+  Cost: 247.00, Feasible: True, Vehicles: 4
+------------------------------
+Instance: E-n22-k4 (E-n22-k4.vrp)
+  Solve Duration: 0.14s
+  Cost: 381.00, Feasible: True, Vehicles: 4
+------------------------------
+Instance: E-n23-k3 (E-n23-k3.vrp)
+  Solve Duration: 1.82s
+  Cost: 597.00, Feasible: True, Vehicles: 3
+------------------------------
+Instance: E-n30-k3 (E-n30-k3.vrp)
+  Solve Duration: 59.40s
+  Status: NO_FEASIBLE_SOLUTION_FOUND
+------------------------------
+Instance: E-n31-k7 (E-n31-k7.vrp)
+  Solve Duration: 0.85s
+  Cost: 401.00, Feasible: True, Vehicles: 7
+------------------------------
+Instance: M-n101-k10 (M-n101-k10.vrp)
+  Solve Duration: 91.73s
+  Cost: 842.00, Feasible: True, Vehicles: 10
+------------------------------
+Instance: mini-n7-k2 (mini-n7-k2.vrp)
+  Solve Duration: 0.00s
+  Cost: 140.00, Feasible: True, Vehicles: 2
+------------------------------
