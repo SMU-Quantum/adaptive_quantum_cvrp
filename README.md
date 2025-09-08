@@ -1,5 +1,12 @@
 # Adaptive Quantum CVRP
 
+Implementation of the paper:
+
+**Hybrid Learning and Optimization Methods for Solving Capacitated Vehicle Routing Problem**
+
+Citation:
+Sharma, M., & Lau, H. C. (2025). Hybrid Learning and Optimization Methods for Solving Capacitated Vehicle Routing Problem. Zenodo. https://doi.org/10.5281/zenodo.15621110
+
 This repository provides an adaptive framework for solving the Capacitated Vehicle Routing Problem (CVRP) using quantum algorithms and reinforcement learning techniques. The project includes classical and quantum solvers, RL-based penalty learners, and experiment scripts for benchmarking and evaluation.
 
 ## Features
@@ -72,9 +79,6 @@ print(solution)
 
 - Experiment outputs and solution files are stored in `results/`
 
-## Contributing
-
-Contributions are welcome! Please open issues or submit pull requests for improvements, bug fixes, or new features.
 
 ## License
 
