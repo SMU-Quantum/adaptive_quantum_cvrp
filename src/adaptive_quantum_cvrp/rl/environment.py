@@ -70,7 +70,7 @@ class ALMPenaltyEnv(gym.Env):
             norm_capacity,
             norm_avg_demand,
             norm_violations,
-            norm_num_vehicles # Add it here
+            norm_num_vehicles 
         ], dtype=np.float32)
 
     def reset(self, seed=None, options=None) -> tuple[np.ndarray, dict]:
@@ -95,13 +95,13 @@ class ALMPenaltyEnv(gym.Env):
         cost = CVRPEvaluator.get_solution_cost(self.instance, solution)
         is_feasible, _ = CVRPEvaluator.check_feasibility(self.instance, solution)
 
-        # --- NEW: Report back the best solution found ---
+        # --- Report back the best solution found ---
         info = {}
         if is_feasible and cost < self.best_feasible_cost:
             self.best_feasible_cost = cost
             info["solution"] = solution
             info["cost"] = cost
-        # --- END OF NEW CODE ---
+        
 
         # 3. Calculate reward
         # Reward is negative cost, with a large penalty for infeasibility

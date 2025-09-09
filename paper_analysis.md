@@ -24,9 +24,7 @@ The overall architecture is an iterative ALM loop where an RL agent learns to ad
 - Constraints include ensuring each customer is visited exactly once and that vehicle capacity is not exceeded.
 - The ALM converts this into an unconstrained problem by adding penalty terms for constraint violations to the objective function. The new objective function is the Lagrangian, $L_{\lambda,\mu}(S)$:
 
-  $$
-  L_{\lambda,\mu}(S) = C(S) + \sum_{j \in C} \lambda_j g_j(S) + \frac{1}{2\mu} \sum_{j \in C} (g_j(S))^2 + \frac{1}{2\mu} \sum_{k=1}^{K} (h_k(S))^2
-  $$
+  $$ L_{\lambda,\mu}(S) = C(S) + \sum_{j \in C} \lambda_j g_j(S) + \frac{1}{2\mu} \sum_{j \in C} (g_j(S))^2 + \frac{1}{2\mu} \sum_{k=1}^{K} (h_k(S))^2 $$
 
 - The loop iteratively solves this Lagrangian subproblem and then updates the Lagrange multipliers ($\lambda$) and penalty parameters ($\mu$).
 

@@ -4,8 +4,6 @@
 This module abstracts the interaction with the quantum computing framework (e.g., Qiskit). It takes a QUBO and runs the VQE algorithm.
 """
 
-# src/adaptive_quantum_cvrp/quantum/vqe_runner.py
-
 import numpy as np
 from scipy.optimize import minimize, OptimizeResult
 from qiskit.circuit.library import RealAmplitudes, efficient_su2

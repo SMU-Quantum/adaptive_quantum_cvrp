@@ -44,26 +44,16 @@ def decode_solution(
     # The run method takes the circuit and optional shots
     result = sampler.run([final_circuit], shots=1024).result()
     
-    
-    # pub = (final_circuit,)
-    # job = sampler.run([pub], shots=1024).result()
-    
-    
-    # Get the most frequent outcome
-    # bitstring_counts = result.quasi_dists[0].binary_probabilities()
-    # best_bitstring = max(bitstring_counts, key=bitstring_counts.get)
 
 
 
     # 4. Get the measurement counts
     # The result object holds the data in a structured way.
-    # We access the counts from the first (and only) circuit run.
     counts = result[0].data.meas.get_counts()
 
     if not counts:
         return CVRPSolution(routes=[]) # Return empty solution if no counts
-    # counts = job[0].data.meas.get_counts()
-    # Find the most frequent outcome (bitstring)
+    
     best_bitstring = max(counts, key=counts.get)
     
     
@@ -106,13 +96,6 @@ def decode_solution(
                     break
             
             if next_node == -1 or next_node == 0: break # Route ends or gets stuck
-            
-
-
-            # next_node = adj[curr][0]
-            # if next_node == 0: break # Route ends
-            
-            # if next_node in visited: break # Avoid cycles / merging
             
             current_route.append(next_node)
             visited.add(next_node)
