@@ -1,0 +1,20 @@
+2025-09-09 17:15:52,884 [INFO] [root] - Logging configured. Log file at: results/rl_quantum_run_1/experiment.log
+2025-09-09 17:15:52,884 [INFO] [root] - Loaded configuration from: configs/experiments/rl_quantum_alm.yaml
+2025-09-09 17:15:52,884 [INFO] [root] - Found 1 instances to process in 'data/quantum_data'
+2025-09-09 17:15:52,884 [INFO] [root] - Using Quantum Subproblem Solver for all instances.
+2025-09-09 17:15:52,884 [INFO] [root] - --- Processing instance: C-n3-k2_inst1 ---
+2025-09-09 17:15:52,884 [INFO] [root] - Starting RL-ALM training for instance: C-n3-k2_inst1
+2025-09-09 17:15:57,404 [INFO] [root] - New best feasible solution found for C-n3-k2_inst1 with cost: 266.00
+2025-09-09 17:16:34,071 [INFO] [root] - Episode 1 | Score: -3812.00 | Avg Score: -3812.00
+2025-09-09 17:17:16,401 [INFO] [root] - Episode 2 | Score: -3956.00 | Avg Score: -3884.00
+2025-09-09 17:17:57,000 [INFO] [root] - Episode 3 | Score: -3380.00 | Avg Score: -3716.00
+2025-09-09 17:18:37,524 [INFO] [root] - Episode 4 | Score: -4100.00 | Avg Score: -3812.00
+2025-09-09 17:19:18,059 [INFO] [root] - Episode 5 | Score: -3812.00 | Avg Score: -3812.00
+2025-09-09 17:19:58,842 [INFO] [root] - Episode 6 | Score: -3524.00 | Avg Score: -3764.00
+2025-09-09 17:20:39,250 [INFO] [root] - Episode 7 | Score: -4100.00 | Avg Score: -3812.00
+2025-09-09 17:21:19,643 [INFO] [root] - Episode 8 | Score: -3668.00 | Avg Score: -3794.00
+2025-09-09 17:21:59,798 [INFO] [root] - Episode 9 | Score: -3668.00 | Avg Score: -3780.00
+2025-09-09 17:22:40,601 [INFO] [root] - Episode 10 | Score: -3380.00 | Avg Score: -3740.00
+2025-09-09 17:22:40,601 [INFO] [root] - RL training for C-n3-k2_inst1 complete. Best cost found: 266.0
+2025-09-09 17:22:40,601 [INFO] [root] - Best solution for C-n3-k2_inst1 saved to results/rl_quantum_run_1/C-n3-k2_inst1/solution.json
+2025-09-09 17:22:40,601 [INFO] [root] - --- All processing complete. ---

@@ -1,0 +1,16 @@
+experiment:
+  name: "Classical ALM on E-n13-k4"
+  type: "vanilla_alm"
+  output_dir: "results/classical_alm_run_1"
+  log_level: "INFO"
+
+data:
+  # instance_path: "data/cvrplib_instances_train/E-n13-k4.vrp"
+  instance_folder: "data/cvrplib_instances_eval"
+
+solver:
+  type: "classical"
+
+alm:
+  max_iterations: 100
+  initial_penalty_mu: 1.0

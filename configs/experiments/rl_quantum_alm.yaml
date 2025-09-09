@@ -1,0 +1,24 @@
+experiment:
+  name: "RL Training with Quantum Solver"
+  type: "rl_alm"
+  output_dir: "results/rl_quantum_run_1"
+  log_level: "DEBUG"
+
+data:
+  instance_folder: "data/quantum_data"
+
+solver:
+  type: "quantum"
+  quantum_options:
+    num_vehicles: 4
+    vqe_options:
+      optimizer:
+        maxiter: 50
+
+rl:
+  num_episodes: 10
+  max_alm_steps: 10
+  batch_size: 32
+  learning_rate: 0.0003
+  gamma: 0.99
+  tau: 0.005

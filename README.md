@@ -1,89 +1,115 @@
-# Adaptive Quantum CVRP
+# Adaptive Quantum CVRP Solver
 
-Implementation of the paper:
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-**Hybrid Learning and Optimization Methods for Solving Capacitated Vehicle Routing Problem**
+This repository contains the official implementation for the research paper "Hybrid Learning and Optimization methods for solving Capacitated Vehicle Routing Problem." It provides a novel hybrid framework that uses Reinforcement Learning (RL) to automate parameter tuning for an Augmented Lagrangian Method (ALM) solver for the Capacitated Vehicle Routing Problem (CVRP), with support for both classical and quantum subproblem solvers.
 
-Citation:
-Sharma, M., & Lau, H. C. (2025). Hybrid Learning and Optimization Methods for Solving Capacitated Vehicle Routing Problem. Zenodo. https://doi.org/10.5281/zenodo.15621110
+## 📜 Overview
 
-This repository provides an adaptive framework for solving the Capacitated Vehicle Routing Problem (CVRP) using quantum algorithms and reinforcement learning techniques. The project includes classical and quantum solvers, RL-based penalty learners, and experiment scripts for benchmarking and evaluation.
+The Capacitated Vehicle Routing Problem (CVRP) is a classic NP-hard optimization problem. This project tackles it using an Augmented Lagrangian Method (ALM), where the traditionally difficult task of tuning penalty parameters is automated by a Soft Actor-Critic (SAC) reinforcement learning agent.
 
-## Features
+The framework is designed to be flexible and supports two distinct backends for solving the ALM subproblems:
+* **Classical Solver**: A fast, heuristic-based classical solver.
+* **Quantum Solver**: A quantum approach that formulates the subproblem as a QUBO and solves it using Qiskit's Variational Quantum Eigensolver (VQE).
 
-- Quantum and classical solvers for CVRP
-- Reinforcement learning penalty learner for constraint handling
-- Batch experiment scripts for automated evaluation
-- Pre-trained models and sample results
-- Support for standard CVRP instance formats
+## ✨ Features
 
-## Project Structure
+* **Modular Architecture**: The code is organized into distinct, reusable modules for data handling, optimization, reinforcement learning, and quantum computing.
+* **Configuration-Driven**: All experiments are controlled via simple YAML configuration files. No code changes are needed to change parameters, solvers, or problem instances.
+* **Hybrid Classical-Quantum**: Seamlessly switch between a classical and a quantum subproblem solver via the configuration.
+* **RL-Powered Automation**: Leverages a Soft Actor-Critic (SAC) agent to intelligently learn and set the penalty parameters in the ALM framework.
+* **Reproducible**: With a single entry point and version-controlled dependencies, experiments are easy to reproduce.
+
+## 🏗️ Project Structure
+
+The project is organized into a clean and maintainable structure:
 
 ```
 adaptive_quantum_cvrp/
-├── data/                # CVRP instance files and solutions
-├── dummy_tiny_instances/# Tiny test instances
-├── experiments/         # Experiment scripts
-├── models/              # Pre-trained models and RL outputs
-├── notes/               # Project notes
-├── results/             # Experiment results
-├── src/                 # Source code (solvers, RL, quantum modules)
-├── tests/               # Unit tests
-├── requirements.txt     # Python dependencies
-├── pyproject.toml       # Project metadata
-└── README.md            # Project documentation
+├── configs/                # Experiment configuration files
+├── data/                   # CVRP instance files (.vrp)
+├── results/                # Output directory for logs, models, and solutions
+├── src/
+│   └── adaptive_quantum_cvrp/ # Main source code package
+│       ├── alm/             # Augmented Lagrangian Method core
+│       ├── common/          # Shared data structures (Instance, Solution)
+│       ├── quantum/         # Quantum components (QUBO, VQE)
+│       ├── rl/              # Reinforcement Learning (Agent, Environment)
+│       └── utils/           # Helper utilities (logging, config loading)
+├── tests/                  # Unit tests for the modules
+├── requirements.txt        # Project dependencies
+└── run_experiment.py       # Single entry point to run all experiments
 ```
 
-## Getting Started
+## 🚀 Getting Started
 
 ### Prerequisites
 
-- Python 3.8+
-- Recommended: virtual environment (venv, conda, etc.)
+* Python 3.9+
+* `pip` and `venv`
 
 ### Installation
 
+1.  **Clone the repository:**
+    ```bash
+    git clone [https://github.com/your-username/adaptive-quantum-cvrp.git](https://github.com/your-username/adaptive-quantum-cvrp.git)
+    cd adaptive-quantum-cvrp
+    ```
+2.  **Create and activate a virtual environment:**
+    ```bash
+    python -m venv venv
+    source venv/bin/activate  # On Windows: venv\Scripts\activate
+    ```
+3.  **Install the required dependencies:**
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+## ⚙️ Usage
+
+All experiments are launched from the `run_experiment.py` script, which takes a single argument: the path to a configuration file.
+
+### Running a Vanilla ALM Experiment
+
+This runs the ALM solver with a fixed penalty parameter, using the classical backend.
+
 ```bash
-git clone https://github.com/SMU-Quantum/adaptive_quantum_cvrp.git
-cd adaptive_quantum_cvrp
-python -m venv venv
-source venv/bin/activate
-pip install -r requirements.txt
+python run_experiment.py --config configs/experiments/classical_alm.yaml
 ```
 
-### Usage
+### Training the RL Agent (Classical Backend)
 
-- Run experiments:
-	```bash
-	python experiments/run_alm_experiment.py
-	python experiments/run_rl_penalty_learner_experiment.py
-	```
-- Evaluate on provided CVRP instances in `data/`
-- Pre-trained models are available in `models/`
+This trains the SAC agent to learn penalty parameters using the classical solver as its backend.
 
-### Example
-
-```python
-from src.alm import quantum_solver
-# ...existing code...
-solution = quantum_solver.solve(instance_path)
-print(solution)
+```bash
+python run_experiment.py --config configs/experiments/rl_classical_alm.yaml
 ```
 
-## Data
+### Training the RL Agent (Quantum Backend)
 
-- Standard CVRP instances from CVRPLIB in `data/cvrplib_instances_*`
-- Tiny test instances in `dummy_tiny_instances/`
+This trains the SAC agent using the VQE-based quantum solver. **Note:** This is computationally intensive and is best suited for small CVRP instances.
 
-## Results
+```bash
+python run_experiment.py --config configs/experiments/rl_quantum_alm.yaml
+```
 
-- Experiment outputs and solution files are stored in `results/`
+### Customizing Experiments
 
+To run on a different instance or change parameters, simply copy one of the example config files in `configs/experiments/` and modify it. You can change the instance path, solver type, RL hyperparameters, and more.
 
-## License
+## 📄 Citation
 
-This project is licensed under the MIT License.
+If you use this code in your research, please cite the original paper:
 
-## Contact
+```bibtex
+@article{sharma2024hybrid,
+  title={Hybrid Learning and Optimization methods for solving Capacitated Vehicle Routing Problem},
+  author={Sharma, Monit and Lau, Hoong Chuin},
+  journal={arXiv preprint arXiv:XXXX.XXXXX},
+  year={2024}
+}
+```
 
-For questions or collaboration, please contact the maintainers or open an issue.
+## ⚖️ License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.

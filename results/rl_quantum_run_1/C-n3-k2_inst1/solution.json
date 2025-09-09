@@ -1,0 +1,10 @@
+{
+  "instance": "C-n3-k2_inst1",
+  "cost": 266.0,
+  "routes": [
+    [
+      1,
+      2
+    ]
+  ]
+}

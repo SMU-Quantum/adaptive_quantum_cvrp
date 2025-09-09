@@ -1,0 +1,19 @@
+experiment:
+  name: "RL Training with Classical Solver"
+  type: "rl_alm"
+  output_dir: "results/rl_classical_run_1"
+  log_level: "INFO"
+
+data:
+  instance_folder: "data/cvrplib_instances_eval"
+
+solver:
+  type: "classical"
+
+rl:
+  num_episodes: 1000
+  max_alm_steps: 50
+  batch_size: 256
+  learning_rate: 0.0003
+  gamma: 0.99
+  tau: 0.005
