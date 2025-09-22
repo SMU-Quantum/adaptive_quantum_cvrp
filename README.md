@@ -52,7 +52,7 @@ adaptive_quantum_cvrp/
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/your-username/adaptive-quantum-cvrp.git](https://github.com/your-username/adaptive-quantum-cvrp.git)
+    git clone https://github.com/SMU-Quantum/adaptive_quantum_cvrp
     cd adaptive-quantum-cvrp
     ```
 2.  **Create and activate a virtual environment:**
@@ -102,11 +102,14 @@ To run on a different instance or change parameters, simply copy one of the exam
 If you use this code in your research, please cite the original paper:
 
 ```bibtex
-@article{sharma2024hybrid,
-  title={Hybrid Learning and Optimization methods for solving Capacitated Vehicle Routing Problem},
-  author={Sharma, Monit and Lau, Hoong Chuin},
-  journal={arXiv preprint arXiv:XXXX.XXXXX},
-  year={2024}
+@misc{sharma2025hybridlearningoptimizationmethods,
+      title={Hybrid Learning and Optimization methods for solving Capacitated Vehicle Routing Problem}, 
+      author={Monit Sharma and Hoong Chuin Lau},
+      year={2025},
+      eprint={2509.15262},
+      archivePrefix={arXiv},
+      primaryClass={physics.soc-ph},
+      url={https://arxiv.org/abs/2509.15262}, 
 }
 ```
 
