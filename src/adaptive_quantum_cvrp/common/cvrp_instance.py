@@ -113,7 +113,7 @@ class CVRPInstance:
                 elif line == "-1":
                     section = ""
 
-        # --- Finalize parsed data ---
+        # Finalize parsed data 
         num_nodes = num_customers + 1
         nodes_arr: Optional[np.ndarray] = None
         dist_matrix_arr: Optional[np.ndarray] = None

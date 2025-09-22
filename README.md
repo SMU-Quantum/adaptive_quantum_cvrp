@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-This repository contains the official implementation for the research paper "Hybrid Learning and Optimization methods for solving Capacitated Vehicle Routing Problem." It provides a novel hybrid framework that uses Reinforcement Learning (RL) to automate parameter tuning for an Augmented Lagrangian Method (ALM) solver for the Capacitated Vehicle Routing Problem (CVRP), with support for both classical and quantum subproblem solvers.
+This repository contains the official implementation for the research paper "[Hybrid Learning and Optimization methods for solving Capacitated Vehicle Routing Problem](https://arxiv.org/abs/2509.15262v1)." It provides a novel hybrid framework that uses Reinforcement Learning (RL) to automate parameter tuning for an Augmented Lagrangian Method (ALM) solver for the Capacitated Vehicle Routing Problem (CVRP), with support for both classical and quantum subproblem solvers.
 
 ## 📜 Overview
 
